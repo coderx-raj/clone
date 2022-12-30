@@ -1,0 +1,2083 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0,minimal-ui,viewport-fit=cover"/>
+    <title>Get Insta: Get Instagram Free Followers &amp; Likes [100% Real]</title>
+    <link rel="icon" href="/dist/favicon.ico" mce_href="/dist/favicon.ico" type="image/x-icon">
+        <meta name="description" content="Download GetInsta app to grow Instagram FREE followers likes. Use this get Instagram followers app for Instagram free followers &amp; free Instagram likes now!" />
+<link rel="alternate" hreflang="en" href="https://www.easygetinnta.com" />
+<link rel="alternate" hreflang="fr" href="https://fr.easygetinnta.com" />
+<link rel="alternate" hreflang="de" href="https://de.easygetinnta.com" />
+<link rel="alternate" hreflang="es" href="https://es.easygetinnta.com" />
+<link rel="alternate" hreflang="ar" href="https://ar.easygetinnta.com" />
+<link rel="alternate" hreflang="it" href="https://it.easygetinnta.com" />
+<link rel="alternate" hreflang="pt" href="https://pt.easygetinnta.com" />
+<link rel="stylesheet" href="golbal.css" />
+<link rel="stylesheet" href="home.css" />
+<link rel="canonical" href="https://www.easygetinnta.com/" />
+<script src="/dist/js/jquery-2.1.4.min.js"></script>    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-214741877-1', 'auto');
+        ga('send', 'pageview');
+
+        !function (w, d, t) {
+            w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};
+            ttq.load('C4DLGQHU9OSI64ED01PG');
+            ttq.page();
+        }(window, document, 'ttq');
+    </script>
+</head>
+
+<body class="home">
+        <div id="" class="main">
+    
+<script>
+$(function() {
+  let token = localStorage.getItem('token');
+
+  if (token) {
+    $('.global-header-nav-userzone-logged .avatar').removeClass('hide');
+    $('.global-header-nav-userzone-login').addClass('hide');
+    ;
+  } else {
+    $('.global-header-nav-userzone-logged.avatar').addClass('hide');
+    $('.global-header-nav-userzone-login').removeClass('hide');
+    $('.global-header-nav-userzone-name').addClass('hide');
+  }
+
+  let car_list = localStorage.getItem('GetInsta_cartList');
+  if (car_list) {
+    // $('.global-header-nav-userzone-logged .cart').removeClass('hide');
+  }
+
+  var ins_account = localStorage.getItem('current_ins_account');
+
+  if (ins_account) {
+    var image = JSON.parse(ins_account).profile_pic_url;
+    if (image) {
+      $('.global-header-nav-userzone-logged .avatar img').attr('src', image);
+      $('.mob-nav-menu-avator .avatar img').attr('src', image);
+    }
+  } else if (!ins_account) {
+    var img = '/dist/images/icon-user-default-avatar.svg';
+    var login_str = '<a href="/login" class="avatar"><img src="' + img + '" alt=""></a>';
+    $('.mob-nav-menu-avator').html(login_str);
+    var login_str = '<a href="/login" > Log In </a>';
+    $('.logined').html(login_str);
+  }
+
+  if (token) {
+    var login_str = '<a href="#" onclick="logout()"> Log Out </a>';
+    $('.logined').html(login_str);
+  }
+
+  $('body').on('click', '.global-header-mob-nav-handler', function(e) {
+    e.preventDefault();
+    $('.mob-nav').addClass("on").removeClass("z-index5");
+    $(".global-header-mob-nav-handler").addClass("on")
+  })
+  $('body').on('click', '.mob-nav-close,.mob-nav-mask', function(e) {
+    e.preventDefault();
+    $('.mob-nav').removeClass("on");
+    setTimeout(function() {
+      $('.mob-nav').addClass("z-index5")
+    }, 500);
+    $(".global-header-mob-nav-handler").removeClass("on")
+  })
+  $('body').on('click', '.mob-nav-menu-item.dropdown span', function(e) {
+    e.preventDefault();
+    $(this).parent().hasClass("on") ? $(this).parent().removeClass("on") : $(this).parent().addClass("on")
+  })
+
+})
+
+function go_back() {
+  window.history.back(-1);
+}
+window.addEventListener("storage", function(e) {
+  if (e.key === 'current_ins_account') {
+    var profile_pic_url = JSON.parse(e.newValue).profile_pic_url;
+    $('.global-header-nav-userzone-logged .avatar img').attr('src', profile_pic_url);
+    $('.mob-nav-menu-avator .avatar img').attr('src', profile_pic_url);
+  }
+});
+
+var downbutton = '{"android":{"enable":true,"url":"https:\/\/www.easygetinnta.com\/downloadcenter?channel=web","type":1,"gp_id":"com.instafollowplus.getinsup","gp_referrer":"en-seo-a","app_name":"GetInsita"},"ios":{"enable":true,"url":"https:\/\/apps.apple.com\/app\/apple-store","type":1,"ap_id":"id1588990717","ap_pt":"122793395","ap_ct":"en-seo-a","ap_mt":"8","app_name":"Getinself"},"pc":{"enable":true,"url":"https:\/\/www.iosimo.com\/downloadcenter?product=pc","app_name":"GetInsita"}}';
+localStorage.setItem("download_button",downbutton);
+
+</script>
+<section class="mob-nav z-index5">
+  <div class="mob-nav-mask"></div>
+  <div class="mob-nav-container">
+    <span class="mob-nav-close"></span>
+    <div class="mob-nav-menu">
+      <div class="mob-nav-menu-avator">
+        <a href="/user" class="avatar">
+          <img src="/dist/images/cdn/icon_avatar_default.2c1fbc4e.svg" alt="Icon Avatar - GetInsta Header">
+        </a>
+      </div>
+      <ul>
+        <li class="mob-nav-menu-item">
+          <a href="/"> Home </a>
+        </li>
+                <li class="mob-nav-menu-item">
+          <a href="/buy-instagram-followers"> Buy Instagram Followers </a>
+        </li>
+        <li class="mob-nav-menu-item">
+          <a href="/buy-instagram-daily-followers">
+            Buy Auto Instagram Followers
+          </a>
+        </li>
+        <li class="mob-nav-menu-item">
+          <a href="/buy-instagram-likes"> Buy Instagram Likes </a>
+        </li>
+        <li class="mob-nav-menu-item">
+          <a href="/buy-instagram-auto-likes">
+            Buy Auto Instagram Likes
+          </a>
+        </li>
+        <li class="mob-nav-menu-item">
+          <a href="/all-products">
+            All Products
+          </a>
+        </li>
+                <li class="mob-nav-menu-item">
+          <a href="/blog"> Blog </a>
+        </li>
+        <li class="mob-nav-menu-item">
+          <a href="/get-instagram-followers-likes"> Get Followers & Likes </a>
+        </li>
+        <!-- <li class="mob-nav-menu-item">
+                <a href="/instagram-fonts">Instagram Fonts</a>
+                </li> -->
+        <li class="mob-nav-menu-item">
+          <a href="/instagram-captions">Instagram Captions</a>
+        </li>
+        <li class="mob-nav-menu-item dropdown">
+          <span> Free Tools</span>
+          <div class="mob-nav-menu-item-dropdown">
+            <a href="/instagram-video-downloader">Instagram Video Downloader
+            </a>
+            <a href="/the-most-followed-instagram">Instagram Ranking Tool</a>
+            <a href="/instagram-name-generator">Instagram Name Generator</a>
+            <a href="/instagram-follower-counter">Instagram Follower Counter</a>
+            <a href="/instagram-fonts">Instagram Fonts</a>
+          </div>
+        </li>
+        <li class="mob-nav-menu-item logined">
+          <a href="#" onclick="logout()"> Log Out </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<header>
+
+    <!--        -->    <section class="top-fixed-float">
+    <a href='/buy-instagram-followers' onclick='ga("send", "event", "bannerclick", "click", "hpxmas-pc")'
+      class="top-fixed-container pc"></a>
+        <a href="/thank-you-download"
+      onclick='ga("send", "event", "insdl", "download", "hpxmas-pc")'
+      class="top-fixed-container mob"></a>
+    
+    <span class="top-fixed-btn closeAd"></span>
+  </section>
+    <section class="global-header scroll-animation">
+    <div class="container">
+      <div class="global-header-logo">
+                <div class="global-header-mob-nav-handler"></div>
+                <a href="/"> <i></i>
+                    <span class="proname">GetInsta</span>
+                  </a>
+      </div>
+      <nav class="global-header-nav">
+        <ul class="global-header-nav-menu">
+          <li class="global-header-nav-menu-item"><a href="/">Home</a></li>
+                    <li class="global-header-nav-menu-item dropdown">
+            <span>Store</span>
+            <i></i>
+            <!-- storeDown -->
+            <div class="global-header-nav-menu-item-dropdown ">
+              <div>
+                <a href="/buy-instagram-followers">Buy Instagram Followers</a>
+                <a href="/buy-instagram-daily-followers">Buy Auto Instagram Followers</a>
+                <a href="/buy-instagram-auto-likes">Buy Auto Instagram Likes</a>
+                <a href="/buy-instagram-likes">Buy Instagram Likes</a>
+                <a href="/all-products">All Products</a>
+              </div>
+
+              <!-- <span onclick="tostore()"></span> -->
+            </div>
+          </li>
+                    <li class="global-header-nav-menu-item">
+            <a href="/get-instagram-followers-likes">Get Followers & Likes</a>
+          </li>
+          <!-- <li class="global-header-nav-menu-item">
+                                <a href="/instagram-fonts">Instagram Fonts</a>
+                            </li> -->
+          <li class="global-header-nav-menu-item">
+            <a href="/instagram-captions">Instagram Captions</a>
+          </li>
+          <li class="global-header-nav-menu-item dropdown">
+            <span>Free Tools</span>
+            <i></i>
+            <div class="global-header-nav-menu-item-dropdown">
+              <a href="/instagram-video-downloader">Instagram Video Downloader</a>
+              <a href="/the-most-followed-instagram">Instagram Ranking Tool</a>
+              <a href="/instagram-name-generator">Instagram Name Generator</a>
+              <a href="/instagram-follower-counter">Instagram Follower Counter</a>
+              <a href="/instagram-fonts">Instagram Fonts</a>
+            </div>
+          </li>
+          <li class="global-header-nav-menu-item"><a href="/blog">Blog</a></li>
+          <!-- <li class="global-header-nav-menu-item">
+                                <a href="/affiliate-solutions">Affiliates</a>
+                            </li> -->
+        </ul>
+        <div class="global-header-nav-userzone">
+          <!-- before login -->
+          <div class="global-header-nav-userzone-login hide">
+                        <a class="avatar-login" onclick="ga('send', 'event', ' inslogin', 'login', 'login-header-all')"
+              href="/login">Log In</a>
+                      </div>
+          <!-- after login -->
+          <div class="global-header-nav-userzone-logged">
+
+                        <a href="/checkout" class="cart hide"></a>
+            
+            <a href="/user" class="avatar hide">
+              <img src="/dist/images/cdn/icon_avatar_default.2c1fbc4e.svg" alt="Icon Avatar - GetInsta Header">
+            </a>
+          </div>
+
+          <div class="global-header-nav-userzone-name dropdown userAccountName hide">
+            <span></span>
+            <i></i>
+            <div class="global-header-nav-menu-item-dropdown">
+              <a href="#" onclick="logout()">Log Out</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <!--        -->  </header>
+    <section class="home-banner">
+  <div class="container">
+    <div class="home-banner-intro-text">
+            <h1 class="fadeInUp">
+                  Get Instagram Free <br />
+          Followers & Likes
+        </h1>
+                <p class="fadeInUp fadeDelay06">
+          
+          Easily get 100% high-quality <strong>Instagram FREE followers</strong> and likes. No password. No survey. No risk. 100% real and safe
+        </p>
+
+                <!-- three button us-->
+                <div class="home-banner-intro-btnzone three-button fadeInUp fadeDelay10">
+                      <button class="button button-banner cyan attach-ico ins bubble-float shadow button-btn-windows"
+               onclick="getFree('insdl', 'download', 'hp#dl1')" >
+              <i class="b0" data-original="/dist/images/icons/icon-person-add-white.svg"></i>
+              <i class="b1" data-original="/dist/images/icons/icon-heart-white.svg"></i>
+              <i class="b2" data-original="/dist/images/icons/icon-heart-white.svg"></i>
+              <i class="b3" data-original="/dist/images/icons/icon-person-add-white.svg"></i>
+              <span>Get Free Followers & Likes</span>
+            </button>
+                        <a href="/buy-instagram-followers?flag=2"
+              onclick="ga('send', 'event', 'insbuy', 'buy', 'hppcbuy-followers')"
+              class="button button-banner white-frame">
+              <span>Buy Followers Now</span>
+            </a>
+                                    <a href="/buy-instagram-likes?flag=2"
+              onclick="ga('send', 'event', 'insbuy', 'buy', 'hppcbuy-likes')"
+              class="button button-banner white-frame">
+              <span>Buy Likes Now</span>
+            </a>
+                      </div>
+        </div>
+        
+        <div class="home-banner-showcase">
+          <div class="home-banner-showcase-animation">
+            <div class="bg"></div>
+            <div class="line"></div>
+            <div class="bubble-0"></div>
+            <div class="bubble-1"></div>
+          </div>
+        </div>
+    </div>
+</section>
+<!-- end banner -->
+<!-- intro -->
+<section class="home-intro scroll-animation scollTag">
+  <div class="container">
+    <h2 class="fadeInUp fadeDelay00">
+      <small>HOW TO</small>
+      <span>Get Instagram Free Followers and Likes</span>
+    </h2>
+    <p class="fadeInUp fadeDelay06">
+      We provide unlimited free Instagram followers and free Instagram
+      likes. It’s totally free for you. Getting free Instagram followers &
+      likes with <span class="proname">GetInsta</span> is as simple as ABC.
+    </p>
+    <div class="home-intro-steps">
+      <div class="home-intro-steps-item itemA fadeInUp fadeDelay06">
+        <i style="background-image: url(/dist/images/placeholder.jpg);"
+          data-original="/dist/images/icons/icon-download-pc.svg"></i>
+        <h3>Step 1</h3>
+        <p>Sign Up and Log In</p>
+      </div>
+      <div class="home-intro-steps-link fadeInUp fadeDelay08"
+        style="background-image: url(/dist/images/placeholder.jpg);"
+        data-original="/dist/images/icons/icon-intro-step-link.svg"></div>
+      <div class="home-intro-steps-item itemB fadeInUp fadeDelay10">
+        <i style="background-image: url(/dist/images/placeholder.jpg);"
+          data-original="/dist/images/icons/icon-add-pc.svg"></i>
+        <h3>Step 2</h3>
+        <p>Get Free Followers & Likes</p>
+      </div>
+    </div>
+    <div class="home-intro-mob fadeInUp fadeDelay08">
+      <div class="home-intro-mob-item">
+        <em>1</em>
+        <span class="download">Download App</span>
+      </div>
+      <div class="home-intro-mob-item">
+        <em>2</em>
+        <span class="add">Get Free Followers & Likes</span>
+      </div>
+    </div>
+    <div class="home-intro-btnzone fadeInUp fadeDelay08">
+      <button onclick="
+                getFree('insdl', 'download', 'hp#dl2')
+        " class="button rainbow attach-ico ins shadow button-btn-windows">
+        <span>Get Free Followers & Likes</span>
+      </button>
+      <a href="/buy-instagram-followers"
+        onclick="ga('send', 'event', 'insbuy', 'buy', 'hppcbuynew2')" class="button black-frame">
+        <span>Buy Followers Now</span>
+      </a>
+    </div>
+  </div>
+</section>
+<!-- end intro -->
+<!-- plane -->
+<section class="home-plane scroll-animation">
+  <div class="container">
+    <h2 class="fadeInUp fadeDelay00">
+      <small>GET</small><span>Instagram Followers</span>
+    </h2>
+    <div class="home-plane-guide"></div>
+    <div class="home-plane-showcase">
+      <div class="home-plane-showcase-item fadeInUp fadeDelay06">
+        <div class="badge free">
+          <img src="/dist/images/placeholder.jpg" data-original="/dist/images/icons/badge-free.svg"
+            alt="Free Instagram Followers">
+        </div>
+        <div class="home-plane-showcase-item-inner">
+          <h3>Get Free Followers</h3>
+          <dl class="home-plane-showcase-item-inner-summary">
+            <dt>$0</dt>
+            <dd>Unlimited & Forever Free</dd>
+            <dd class="btnzone pc">
+              <button class="button black-frame attach-ico ins shadow button-btn-windows"
+                 onclick="getFree('insdl', 'download', 'hp#dl3')">
+                                <span>Get Free Followers & Likes</span>
+              </button>
+            </dd>
+          </dl>
+          <ul class="home-plane-showcase-item-inner-details">
+            <li>Automatic & Organic</li>
+            <li>Gain Real-time Followers</li>
+            <li>Earn Coins on Instagram Followers App</li>
+            <li>Deliver within 24 Hours</li>
+            <li>Real Followers, No Bots!</li>
+            <li>No Password, No Verification</li>
+            <li>Profile Must Be Public</li>
+          </ul>
+          <div class="mob">
+            <button               onclick="getFree('insdl', 'download', 'hp#dl3-onlylike')"               class="button rainbow attach-ico ins shadow">
+              <span>Get Free Followers & Likes</span>
+            </button>
+          </div>
+        </div>
+        <div class="round01 ammo-move-d1s"></div>
+        <div class="round02 ammo-move"></div>
+      </div>
+      <div class="home-plane-showcase-item fadeInUp fadeDelay10">
+        <div class="badge discount">
+          <img src="/dist/images/placeholder.jpg" data-original="/dist/images/icons/badge-discount.svg" alt="">
+        </div>
+        <div class="home-plane-showcase-item-inner">
+          <h3><a onclick="testData()">Get Daily Followers</a></h3>
+          <dl class="home-plane-showcase-item-inner-summary purchase">
+            <dt><span class="priceData">$0.99</span> <span> / day</span></dt>
+            <dd class="plane-select">
+              <div class="select-content">
+                <label class="cycle days">
+                  <select name="offer-daily" class="package changed switchData">
+                                        <option value="30">30-Day</option>
+                                        <option value="60">60-Day</option>
+                                        <option value="90">90-Day</option>
+                                      </select>
+                </label>
+              </div>
+              <div class="select-content count getMore">
+                <label class="cycle daily">
+                  <select name="offer-daily" class="package changed purchase_quantity">
+                                        <option data-price="29.7" value="2259">
+                      <span>50</span> Followers / Day
+                    </option>
+                                        <option data-price="59.7" value="2260">
+                      <span>150</span> Followers / Day
+                    </option>
+                                        <option data-price="68.7" value="2261">
+                      <span>200</span> Followers / Day
+                    </option>
+                                      </select>
+                </label>
+              </div>
+              <!-- <div class="select-content home-instant-followers">
+                <label class="cycle">
+                  <select name="instant-followers" class="package changed" id="instant-followers-home">
+                                        <option value="4169">
+                      100 followers &nbsp;&nbsp;
+                      $3.59                    </option>
+                                        <option value="4160">
+                      750 followers &nbsp;&nbsp;
+                      $15.99                    </option>
+                                        <option value="4161">
+                      1500 followers &nbsp;&nbsp;
+                      $25.99                    </option>
+                                        <option value="4162">
+                      3000 followers &nbsp;&nbsp;
+                      $35.99                    </option>
+                                        <option value="4163">
+                      5000 followers &nbsp;&nbsp;
+                      $59.99                    </option>
+                                      </select>
+                </label>
+              </div> -->
+            </dd>
+            <dd class="btnzone">
+              <button class="button gradient-org shadow buygachange" onclick="buyNow()">
+                <span>Buy Now</span>
+              </button>
+            </dd>
+          </dl>
+          <ul class="home-plane-showcase-item-inner-details">
+            <li>Automatic & Organic</li>
+            <li>Gain Real-time Followers</li>
+            <li>Follow Back 0 Profiles</li>
+            <li>Deliver within 24 Hours</li>
+            <li>Plan is 100% Automatic</li>
+            <li>Real Followers, No Bots!</li>
+            <li>No Password, No Verification</li>
+            <li>24/7 Support</li>
+          </ul>
+        </div>
+        <div class="round03 ammo-move"></div>
+        <div class="round04 ammo-move-d1s"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- services -->
+<section class="home-services">
+  <div class="services-main scroll-animation">
+    <div class="services-title">
+      <h2 class="pc fadeInUp fadeDelay00">
+        <span>GET A VARIETY OF</span>
+        Instagram Free Followers Likes Services
+      </h2>
+      <h2 class="mob fadeInUp fadeDelay00">
+        <span>GET A VARIETY OF</span>
+        Instagram Free <br> Followers Likes Services
+      </h2>
+    </div>
+    <div class="services-tabs ">
+      <div class="services-tabs_item on fadeInUp fadeDelay06">
+        <div class="item_avator"></div>
+        <p>Instagram Followers</p>
+      </div>
+      <div class="services-tabs_item fadeInUp fadeDelay06">
+        <div class="item_avator"></div>
+        <p>Instagram Likes</p>
+      </div>
+    </div>
+    <div class="services-content">
+      <div class="services-content_item active">
+        <ul>
+          <li class="fadeInRight fadeDelay00">
+            <img
+              src="/dist/images/home/f_pic01_pc.svg"
+              alt="Instant Instagram Followers by GetInsta">
+            <h3>Instant Instagram Followers</h3>
+            <p>Associated with the blazing-fast delivery, getting Instant Instagram followers by <span
+                class="proname">GetInsta</span> means you can
+              receive them nearly in an instant. Multiple followers plans are available for you like 1000 instant IG
+              followers, 2000 instant IG followers and 3000 instant IG followers, etc. <strong>Get instant real followers</strong> within minutes by <span class="proname">GetInsta</span> now!</p>
+            <button onclick="buttonUrl(1)">Get Instant Followers</button>
+          </li>
+          <li class="fadeInRight fadeDelay01">
+            <img
+              src="/dist/images/home/f_pic02_pc.svg"
+              alt="Auto Instagram Followers by GetInsta">
+            <h3>Auto Instagram Followers</h3>
+            <p>Auto Instagram followers enable your account to receive followers daily. This plan is more organic and
+              similar to the natural process of getting followers on Instagram. The whole process would be riskless and
+              gradual. Increase Instagram followers gradually by daily followers plan right away.</p>
+            <button onclick="buttonUrl(2)">Get Auto Followers</button>
+          </li>
+          <li class="fadeInRight fadeDelay02">
+            <img
+              src="/dist/images/home/f_pic03_pc.svg"
+              alt="Local Instagram Followers by GetInsta">
+            <h3>Local Instagram Followers</h3>
+            <p>How to get local Instagram followers? You are now able to select where your followers come from by
+              <span class="proname">GetInsta</span> local Instagram followers. Reaching Instagram users in every corner
+              of the world and making them
+              your followers is practical. Getting US, UK or India Instagram followers is no big deal for <span
+                class="proname">GetInsta</span> from
+              now on.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="services-content_item">
+        <ul>
+          <li>
+            <img
+              src="/dist/images/home/il_pic01_pc.svg"
+              alt="Instant Instagram Likes by GetInsta">
+            <h3>Instant Instagram Likes</h3>
+            <p>Instant Instagram likes by <span class="proname">GetInsta</span> are of high quality, eternity, and
+              safety. 1000 likes could be added
+              to your post instantly and impression as well as organic reach would increase. Even Instagram users you
+              never reached before can see it now. Making more hot posts for your account by <span
+                class="proname">GetInsta</span> instant Instagram likes free now. </p>
+            <button onclick="buttonUrl(4)" class="btn-center">Get Instant Likes</button>
+          </li>
+          <li>
+            <img
+              src="/dist/images/home/il_pic02_pc.svg"
+              alt="Auto Instagram Likes by GetInsta">
+            <h3>Auto Instagram Likes</h3>
+            <p>Auto Instagram likes will be delivered to your upcoming posts automatically. A set number of likes, 100
+              for instance, will be delivered to your 20 or 30 new posts when they are just posted. This stable increase
+              of likes could make your posts appear in the Explore and gain more organic reach too. Free yourself from
+              getting likes and leave it to <span class="proname">GetInsta</span>.</p>
+            <button onclick="buttonUrl(5)" class="btn-center">Get Auto Likes</button>
+          </li>
+          <li>
+            <img
+              src="/dist/images/home/il_pic03_pc.svg"
+              alt="Daily Instagram Likes by GetInsta">
+            <h3>Daily Instagram Likes</h3>
+            <p>Get Insta likes for a post every single day in a month or months to come. More organic and authentic growth of
+              likes is available for your content. Real Instagram users generate real likes for your post, reels, or
+              IGTV videos. Improving your IG account’s performance by <span class="proname">GetInsta</span> daily likes
+              has never been so easy
+              before. Try it now!</p>
+            <button onclick="buttonUrl(6)" class="btn-center">Get Daily Likes</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="pagenation">
+      <span class="on"></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="switch-button">
+      <p>
+        <span id="currentPage">1</span> of <span id="allPage">4</span>
+      </p>
+      <div>
+        <span class="notClick toLeft"></span>
+        <span class="toRight"></span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- benfits -->
+<section class="home-benfits scroll-animation">
+  <div class="container">
+    <h2 class="fadeInUp pc">What Makes Our Get Free Instagram Followers & Likes Services Outstanding</h2>
+    <h2 class="fadeInUp mob">What Makes Our Get Free Instagram Followers & Likes Services Outstanding</h2>
+    <div class="home-benfits-item scroll-animation">
+      <div class="home-benfits-item-graph">
+        <div class="img">
+          <i class="img-0-00" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzk3IiBoZWlnaHQ9IjM5NyIgdmlld0JveD0iMCAwIDM5NyAzOTciPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSIwLjUiIHgyPSIwLjUiIHkyPSIxIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZDZmOCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNiYmQ0ZmYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxwYXRoIGlkPSJiZ19jcmljbGUiIGQ9Ik0xOTguNSwwQzMwOC4xMjksMCwzOTcsODguODcxLDM5NywxOTguNVMzMDguMTI5LDM5NywxOTguNSwzOTcsMCwzMDguMTI5LDAsMTk4LjUsODguODcxLDAsMTk4LjUsMFoiIGZpbGw9InVybCgjbGluZWFyLWdyYWRpZW50KSIvPgo8L3N2Zz4K"></i>
+          <i class="img-0-01" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTIiIGhlaWdodD0iMTE4IiB2aWV3Qm94PSIwIDAgNTIgMTE4Ij4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iMC41IiB4Mj0iMC41IiB5Mj0iMSIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMC40NzEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjg1OCIgc3RvcC1jb2xvcj0iI2ViZWZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cGF0aCBpZD0iaW1nX2RhdGFfMDEiIGQ9Ik0xMCwwSDQyQTEwLDEwLDAsMCwxLDUyLDEwdjk4YTEwLDEwLDAsMCwxLTEwLDEwSDEwQTEwLDEwLDAsMCwxLDAsMTA4VjEwQTEwLDEwLDAsMCwxLDEwLDBaIiBmaWxsPSJ1cmwoI2xpbmVhci1ncmFkaWVudCkiLz4KPC9zdmc+Cg=="></i>
+          <i class="img-0-02" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTIiIGhlaWdodD0iMTk5IiB2aWV3Qm94PSIwIDAgNTIgMTk5Ij4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iMC41IiB4Mj0iMC41IiB5Mj0iMSIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMC40NzEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjg1OCIgc3RvcC1jb2xvcj0iI2ViZWZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cGF0aCBpZD0iaW1nX2RhdGFfMDIiIGQ9Ik0xMCwwSDQyQTEwLDEwLDAsMCwxLDUyLDEwVjE4OWExMCwxMCwwLDAsMS0xMCwxMEgxMEExMCwxMCwwLDAsMSwwLDE4OVYxMEExMCwxMCwwLDAsMSwxMCwwWiIgZmlsbD0idXJsKCNsaW5lYXItZ3JhZGllbnQpIi8+Cjwvc3ZnPgo="></i>
+          <i class="img-0-03" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTIiIGhlaWdodD0iMjEyIiB2aWV3Qm94PSIwIDAgNTIgMjEyIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iMC41IiB4Mj0iMC41IiB5Mj0iMSIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMC40NzEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjg1OCIgc3RvcC1jb2xvcj0iI2ViZWZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cGF0aCBpZD0iaW1nX2RhdGFfMDMiIGQ9Ik0xMCwwSDQyQTEwLDEwLDAsMCwxLDUyLDEwVjIwMmExMCwxMCwwLDAsMS0xMCwxMEgxMEExMCwxMCwwLDAsMSwwLDIwMlYxMEExMCwxMCwwLDAsMSwxMCwwWiIgZmlsbD0idXJsKCNsaW5lYXItZ3JhZGllbnQpIi8+Cjwvc3ZnPgo="></i>
+          <i class="img-0-04" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTIiIGhlaWdodD0iMjU0IiB2aWV3Qm94PSIwIDAgNTIgMjU0Ij4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iMC41IiB4Mj0iMC41IiB5Mj0iMSIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMC40NzEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjg1OCIgc3RvcC1jb2xvcj0iI2ViZWZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cGF0aCBpZD0iaW1nX2RhdGFfMDQiIGQ9Ik0xMCwwSDQyQTEwLDEwLDAsMCwxLDUyLDEwVjI0NGExMCwxMCwwLDAsMS0xMCwxMEgxMEExMCwxMCwwLDAsMSwwLDI0NFYxMEExMCwxMCwwLDAsMSwxMCwwWiIgZmlsbD0idXJsKCNsaW5lYXItZ3JhZGllbnQpIi8+Cjwvc3ZnPgo="></i>
+          <!-- <i class="img-0-05" data-original="../images/home/home-4-outstanding_0-05.24ebc23b.svg"></i> -->
+          <i class="img-0-05" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="/dist/images/home/home-4-outstanding_0-05.24ebc23b.svg"></i>
+          <i class="img-0-06" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2OCIgaGVpZ2h0PSI2OCIgdmlld0JveD0iMCAwIDY4IDY4Ij4KICA8ZyBpZD0iaW1nX2xpa2VzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNTg5IC0zOTIyKSI+CiAgICA8cGF0aCBpZD0iY2lyY2xlIiBkPSJNMzQsMEEzNCwzNCwwLDEsMSwwLDM0LDM0LDM0LDAsMCwxLDM0LDBaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1ODkgMzkyMikiIGZpbGw9IiNmZjYzNjMiLz4KICAgIDxwYXRoIGlkPSJmYXZvcml0ZSIgZD0iTTE5Ljk1MSwzNC43ODRhNC42OCw0LjY4LDAsMCwxLTIuNi0xLjIxNEM4LjEsMjUuMTg3LDIsMTkuNjU4LDIsMTIuODczQTkuNzc3LDkuNzc3LDAsMCwxLDExLjg3MywzYTEwLjc1LDEwLjc1LDAsMCwxLDguMDc4LDMuNzUyQTEwLjc0OSwxMC43NDksMCwwLDEsMjguMDI4LDMsOS43NzcsOS43NzcsMCwwLDEsMzcuOSwxMi44NzNjMCw2Ljc4NS02LjEsMTIuMzE0LTE1LjM0OCwyMC43MTVBNC42NDIsNC42NDIsMCwwLDEsMTkuOTUxLDM0Ljc4NFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDYwMy40NzkgMzkzOS44NikiIGZpbGw9IiNmZmYiLz4KICA8L2c+Cjwvc3ZnPgo="></i>
+          <i class="img-0-07" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMTMiIGhlaWdodD0iMTEzIiB2aWV3Qm94PSIwIDAgMTEzIDExMyI+CiAgPGcgaWQ9ImltZ19ibG9jayIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTM1NSAtNDA1OCkiPgogICAgPHBhdGggaWQ9ImNpcmNsZSIgZD0iTTU2LjUsMEE1Ni41LDU2LjUsMCwxLDEsMCw1Ni41LDU2LjUsNTYuNSwwLDAsMSw1Ni41LDBaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzNTUgNDA1OCkiIGZpbGw9IiM3YzU2ZmYiLz4KICAgIDxwYXRoIGlkPSJsb2NrIiBkPSJNNTAuMDEzLDMxLjlWMjQuNDM3QzUwLjAxMywxNy41NzIsNDMuODUxLDEyLDM2LjI1OCwxMlMyMi41LDE3LjU3MiwyMi41LDI0LjQzN1YzMS45QTUuMjc0LDUuMjc0LDAsMCwwLDE3LDM2Ljg3M3YxOS45YTUuMjc0LDUuMjc0LDAsMCwwLDUuNSw0Ljk3NUg1MC4wMTNhNS4yNzQsNS4yNzQsMCwwLDAsNS41LTQuOTc1di0xOS45QTUuMjc0LDUuMjc0LDAsMCwwLDUwLjAxMywzMS45Wm0tNS41LDBIMjhWMjQuNDM3YzAtNC4xMjksMy42ODctNy40NjIsOC4yNTMtNy40NjJzOC4yNTMsMy4zMzMsOC4yNTMsNy40NjJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzNzUuMDkyIDQwNzcuNjkzKSIgZmlsbD0iI2ZmZiIvPgogIDwvZz4KPC9zdmc+Cg=="></i>
+          <i class="img-0-08" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2OCIgaGVpZ2h0PSI2OCIgdmlld0JveD0iMCAwIDY4IDY4Ij4KICA8ZyBpZD0iaW1nX2FkZGZvbGxvd2VyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNTA3IC00MjIxKSI+CiAgICA8cGF0aCBpZD0iY2lyY2xlIiBkPSJNMzQsMEEzNCwzNCwwLDEsMSwwLDM0LDM0LDM0LDAsMCwxLDM0LDBaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MDcgNDIyMSkiIGZpbGw9IiM2NmYiLz4KICAgIDxwYXRoIGlkPSJpY29uX3BlcnNvbl9hZGQiIGQ9Ik0yNS40MTcsMTcuOTUzYTYuOTc2LDYuOTc2LDAsMSwwLTYuOTc2LTYuOTc2QTYuOTc0LDYuOTc0LDAsMCwwLDI1LjQxNywxNy45NTNaTTkuNzIsMTQuNDY1VjkuMjMySDYuMjMydjUuMjMySDF2My40ODhINi4yMzJ2NS4yMzJIOS43MlYxNy45NTNoNS4yMzJWMTQuNDY1Wm0xNS43LDYuOTc2Yy00LjY1NywwLTEzLjk1MywyLjMzNy0xMy45NTMsNi45NzZ2My40ODhIMzkuMzdWMjguNDE3QzM5LjM3LDIzLjc3OCwzMC4wNzQsMjEuNDQxLDI1LjQxNywyMS40NDFaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MTguODgxIDQyMzYuNzQyKSIgZmlsbD0iI2ZmZiIvPgogIDwvZz4KPC9zdmc+Cg=="></i>
+          <i class="img-0-09" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="/dist/images/home/home-4-outstanding_0-09.a6eb8fad.svg"></i>
+          <i class="img-0-10" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="/dist/images/home/home-4-outstanding_0-10.44d8e4c7.svg"></i>
+        </div>
+      </div>
+      <div class="home-benfits-item-text">
+        <span class="caption">
+          <em>No.1</em>
+          SAFETY</span>
+        <h3>Safety & Privacy</h3>
+        <p>
+          Safety & Privacy are important. <span class="proname">GetInsta</span> is developed by our
+          professional and experienced team, 100% safe and clean. No
+          virus. No leak. No risk. We value and protect your privacy. You
+          can get organic growth of real Instagram followers and likes
+          in our best security system.
+        </p>
+      </div>
+    </div>
+    <div class="home-benfits-item scroll-animation">
+      <div class="home-benfits-item-graph">
+        <div class="img">
+          <i class="img-1-01" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="/dist/images/home/home-4-outstanding_1-01.3d71f63e.svg"></i>
+          <i class="img-1-00" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="/dist/images/logo.svg"></i>
+          <i class="img-1-02" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="/dist/images/home/home-4-outstanding_1-02.d291c0b3.png"></i>
+          <i class="img-1-03" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="/dist/images/home/home-4-outstanding_1-03.483c41fb.png"></i>
+          <i class="img-1-04" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="/dist/images/home/home-4-outstanding_1-04.3cc1b0fb.png"></i>
+          <i class="img-1-05" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="/dist/images/home/home-4-outstanding_1-05.32b763ea.png"></i>
+          <i class="img-1-06" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="/dist/images/home/home-4-outstanding_1-06.02b56f2a.png"></i>
+          <i class="img-1-07" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="/dist/images/home/home-4-outstanding_1-07.3f023ae5.png"></i>
+          <i class="img-1-08" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDYiIGhlaWdodD0iNDEwIiB2aWV3Qm94PSIwIDAgNDA2IDQxMCI+CiAgPGcgaWQ9ImltZ19kb3RzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNDggLTQ0NDYpIj4KICAgIDxnIGlkPSJjaXJjbGUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNDggNDY3MikiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzY2ZiIgc3Ryb2tlLXdpZHRoPSI4Ij4KICAgICAgPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMTYiIHN0cm9rZT0ibm9uZSIvPgogICAgICA8Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSIxMiIgZmlsbD0ibm9uZSIvPgogICAgPC9nPgogICAgPGcgaWQ9ImNpcmNsZS0yIiBkYXRhLW5hbWU9ImNpcmNsZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjAgNDQ3OCkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmODI2ZSIgc3Ryb2tlLXdpZHRoPSI0Ij4KICAgICAgPGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjgiIHN0cm9rZT0ibm9uZSIvPgogICAgICA8Y2lyY2xlIGN4PSI4IiBjeT0iOCIgcj0iNiIgZmlsbD0ibm9uZSIvPgogICAgPC9nPgogICAgPGNpcmNsZSBpZD0iY2lyY2xlLTMiIGRhdGEtbmFtZT0iY2lyY2xlIiBjeD0iNyIgY3k9IjciIHI9IjciIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEyMyA0ODQyKSIgZmlsbD0iI2ZmYjkyZCIvPgogICAgPGNpcmNsZSBpZD0iY2lyY2xlLTQiIGRhdGEtbmFtZT0iY2lyY2xlIiBjeD0iOCIgY3k9IjgiIHI9IjgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI0MiA0NDQ2KSIgZmlsbD0iIzJkNmNmZiIvPgogIDwvZz4KPC9zdmc+Cg=="></i>
+        </div>
+      </div>
+      <div class="home-benfits-item-text">
+        <span class="caption">
+          <em>No.2</em>
+          REAL</span>
+        <h3>High Quality - Real & Organic</h3>
+        <p>
+          <strong>Not Fake</strong> Our users are exactly real Instagram
+          users, not fake Instagram bot users generated by anything. The
+          followers and likes you get are from only active & real
+          Instagram accounts.
+        </p>
+        <p>
+          <strong>No Risk</strong> When followers increasing, likes will
+          be increased at the same time. All followers and likes will be
+          sent in a reasonable time, organically and naturally. No risk of
+          being banned or punished.
+        </p>
+      </div>
+    </div>
+    <div class="home-benfits-item scroll-animation">
+      <div class="home-benfits-item-graph">
+        <div class="img">
+          <i class="img-2-00"
+            data-original="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzUyIiBoZWlnaHQ9IjM1MiIgdmlld0JveD0iMCAwIDM1MiAzNTIiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSIwLjUiIHgyPSIwLjUiIHkyPSIxIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZDZmOCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNiYmQ0ZmYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxjaXJjbGUgaWQ9ImJnX2NpcmNsZSIgY3g9IjE3NiIgY3k9IjE3NiIgcj0iMTc2IiBmaWxsPSJ1cmwoI2xpbmVhci1ncmFkaWVudCkiLz4KPC9zdmc+Cg=="></i>
+          <i class="img-2-01" data-original="/dist/images/home/home-4-outstanding_2-01.4dee0d1e.svg"></i>
+          <i class="img-2-02"
+            data-original="data:image/svg+xml;base64,PHN2ZyBpZD0iaW1nX2NoYXQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjE4NC4wNzUiIGhlaWdodD0iNjUuMjc1IiB2aWV3Qm94PSIwIDAgMTg0LjA3NSA2NS4yNzUiPgogIDxwYXRoIGlkPSJiZyIgZD0iTTIwLjI3OSw1Mi4xODlBMjYuMDExLDI2LjAxMSwwLDAsMSwwLDI2LjgyMVYyNkEyNiwyNiwwLDAsMSwyNiwwSDE1OC4wNzVhMjYsMjYsMCwwLDEsMjYsMjZ2LjgyMWEyNiwyNiwwLDAsMS0yNiwyNkgzNC45MzVjLTIuNCw1LjUyMS03Ljk4NSwxMi4zNzctMjAuOSwxMi40NTRDMTkuNTQxLDYwLjU1NSwxOS4zNjEsNTYuNDc2LDIwLjI3OSw1Mi4xODlaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDApIiBmaWxsPSIjZWZhZjQwIiBvcGFjaXR5PSIwLjc5Ii8+CiAgPHJlY3QgaWQ9ImxpbmUiIHdpZHRoPSIxMTIiIGhlaWdodD0iMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzAuNTc0IDE0LjMwMikiIGZpbGw9IiNmZmYiIG9wYWNpdHk9IjAuNiIvPgogIDxyZWN0IGlkPSJsaW5lLTIiIGRhdGEtbmFtZT0ibGluZSIgd2lkdGg9IjY3IiBoZWlnaHQ9IjQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMwLjU3NCAyNC4zMDIpIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIwLjYiLz4KICA8cmVjdCBpZD0ibGluZS0zIiBkYXRhLW5hbWU9ImxpbmUiIHdpZHRoPSI3OSIgaGVpZ2h0PSIzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMC41NzQgMzYuMzAyKSIgZmlsbD0iI2ZmZiIgb3BhY2l0eT0iMC42Ii8+Cjwvc3ZnPgo="></i>
+          <i class="img-2-03" data-original="/dist/images/home/home-4-outstanding_2-03.d899bef7.svg"></i>
+          <i class="img-2-04"
+            data-original="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NSIgaGVpZ2h0PSI0NSIgdmlld0JveD0iMCAwIDQ1IDQ1Ij4KICA8ZyBpZD0iaWNvbl9wZXJzb25fYWRkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMTM5LjQ5OCAtNTY0My43NjgpIj4KICAgIDxwYXRoIGlkPSJiZyIgZD0iTTIyLjUsMEEyMi41LDIyLjUsMCwxLDEsMCwyMi41LDIyLjUsMjIuNSwwLDAsMSwyMi41LDBaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzEzOS40OTggNTY0My43NjgpIiBmaWxsPSIjNjZmIi8+CiAgICA8cGF0aCBpZD0iaWNvbl9wZXJzb25fYWRkLTIiIGRhdGEtbmFtZT0iaWNvbl9wZXJzb25fYWRkIiBkPSJNMTcuMTU5LDEzLjIzM2E0LjYxNyw0LjYxNywwLDEsMC00LjYxNy00LjYxN0E0LjYxNSw0LjYxNSwwLDAsMCwxNy4xNTksMTMuMjMzWk02Ljc3MSwxMC45MjVWNy40NjNINC40NjN2My40NjNIMXYyLjMwOEg0LjQ2M1YxNi43SDYuNzcxVjEzLjIzM2gzLjQ2M1YxMC45MjVabTEwLjM4OCw0LjYxN2MtMy4wODIsMC05LjIzMywxLjU0Ny05LjIzMyw0LjYxN3YyLjMwOEgyNi4zOTJWMjAuMTU5QzI2LjM5MiwxNy4wODgsMjAuMjQsMTUuNTQyLDE3LjE1OSwxNS41NDJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzEzMS45NzQgNTY1Mi44MzMpIiBmaWxsPSIjZmZmIi8+CiAgPC9nPgo8L3N2Zz4K"></i>
+          <i class="img-2-05" data-original="/dist/images/home/home-4-outstanding_2-05.8d5d6d34.svg"></i>
+          <i class="img-2-06" data-original="/dist/images/home/home-4-outstanding_2-05.8d5d6d34.svg"></i>
+          <i class="img-2-07" data-original="/dist/images/home/home-4-outstanding_2-06.f87ff84e.svg"></i>
+        </div>
+      </div>
+      <div class="home-benfits-item-text">
+        <span class="caption">
+          <em>No.3</em>
+          FREE</span>
+        <h3>Unlimited Free</h3>
+        <p>
+          You don’t need to spend money to get followers & likes. This <strong>get Instagram followers app</strong> is
+          100% FREE. What you need is the coin. When you log into
+          <span class="proname">GetInsta</span>, you’ll get hundreds of coins instantly that you can
+          use to buy followers & likes. You can earn more coins by doing
+          easy coin tasks on <span class="proname">GetInsta</span>.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end benfits -->
+
+<!-- end plane -->
+<!-- explan -->
+<section class="home-explan scroll-animation">
+  <div class="container">
+    <div class="home-explan-text">
+      <h2 class="fadeInUp fadeDelay00">
+        <small>HOW DO WE</small>
+        <span>Make "FREE" Possible</span>
+      </h2>
+      <p class="fadeInUp fadeDelay06">
+        Real-person gathering here to follow and like each other. Everyone
+        can get coins by following others or liking their posts. With the
+        coins, you can get unlimited free Instagram followers and likes
+        for your own Instagram accounts and posts. Sounds good? <strong><span class="proname">GetInsta</span> app download</strong> to get unlimited free followers and likes. It’s easy and
+        100% safe!
+      </p>
+      <div class="btnzone fadeInUp fadeDelay10 pc">
+        <button  onclick='getFree( "insdl", "download", "hp#dl4")'  class="button rainbow attach-ico ins shadow">
+          <span>Get Free Followers & Likes</span>
+        </button>
+      </div>
+    </div>
+    <div class="home-explan-graph">
+      <div class="home-explan-graph-item itemA fadeIn fadeDelay04">
+        <em>1</em>
+        <div class="home-explan-graph-item-inner" style="background-image: url(/dist/images/placeholder.jpg);"
+          data-original="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDEuOTk1IiBoZWlnaHQ9IjEyMi4wMDEiIHZpZXdCb3g9IjAgMCAzMDEuOTk1IDEyMi4wMDEiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOiNmZmY7fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJhIiBkPSJNLTYyMTgsMTIyYTMyLjc4NywzMi43ODcsMCwwLDAsMjMuMzItOS42NzhBMzIuNzc0LDMyLjc3NCwwLDAsMC02MTg1LDg5VjM0YTM0LDM0LDAsMCwxLDM0LTM0aDIzNVY4OGEzNCwzNCwwLDAsMS0zNCwzNGgtMjM0djBaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2MjE4KSIvPjwvc3ZnPg==">
+          <div class="icon download"><b style="background-image: url(/dist/images/placeholder.jpg);"
+              data-original="/dist/images/icons/icon-download.svg"></b></div>
+          <h3>Create Account</h3>
+          <p>Log in & get coins</p>
+        </div>
+      </div>
+      <div class="line fadeInUp fadeDelay08" style="background-image: url(/dist/images/placeholder.jpg);"
+        data-original="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTUuODA3IiBoZWlnaHQ9IjEzOC4xMzkiIHZpZXdCb3g9IjAgMCAxOTUuODA3IDEzOC4xMzkiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOm5vbmU7c3Ryb2tlOiM3Zjg0OTg7c3Ryb2tlLWRhc2hhcnJheToyO308L3N0eWxlPjwvZGVmcz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtOTEuNSAtMzcyNS4zNDMpIj48cGF0aCBjbGFzcz0iYSIgZD0iTTYzMTAsMzU3Ni4zNDNjMCwxOS45NjIsNC4zNzIsNDguNzI2LDkwLjY2OCwzOC43NDZzMTE5LjE3MiwzOS4zMzMsOTYuMjc3LDk5LjIxMiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTYyMTggMTQ5KSIvPjxwYXRoIGNsYXNzPSJhIiBkPSJNNjQ5NC4xMTgsMzcwNi43MzdsMy4wNDEsOC4wMjcsNy45MDYtNC4zNzkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC02MjE4IDE0OCkiLz48L2c+PC9zdmc+">
+      </div>
+      <div class="home-explan-graph-item itemB fadeIn fadeDelay12">
+        <em>2</em>
+        <div class="home-explan-graph-item-inner" style="background-image: url(/dist/images/placeholder.jpg);"
+          data-original="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDEuNjM1IiBoZWlnaHQ9IjEyMS45OTkiIHZpZXdCb3g9IjAgMCAzMDEuNjM1IDEyMS45OTkiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOiNmZmY7fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJhIiBkPSJNLTYxODQsMTIyYTM0LDM0LDAsMCwxLTM0LTM0VjBoMjM1YTM0LDM0LDAsMCwxLDM0LDM0Vjg5YTMzLjEwOSwzMy4xMDksMCwwLDAsMzIuNjM1LDMzdjBILTU5NDl2MFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDYyMTgpIi8+PC9zdmc+">
+          <div class="icon add"><b style="background-image: url(/dist/images/placeholder.jpg);"
+              data-original="/dist/images/home/explan-icon-add.svg"></b></div>
+          <h3>Get Followers & Likes</h3>
+          <p>Get free followers</p>
+          <p>Get free likes</p>
+        </div>
+      </div>
+    </div>
+    <div class="btnzone fadeInUp fadeDelay10 mob">
+      <button         onclick="getFree('insdl', 'download', 'hp#dl4-onlylike')"         class="button rainbow attach-ico ins shadow">
+        <span>Get Free Followers & Likes</span>
+      </button>
+    </div>
+  </div>
+</section>
+<!-- end explan -->
+
+<!-- Advantages -->
+<section class="home-advantage scroll-animation">
+  <div class="container">
+    <h2 class="fadeInUp">More Advantages</h2>
+    <div class="home-advantage-items fadeInUp fadeDelay08">
+      <dl class="home-advantage-items-item">
+        <dt>
+          <img data-original="/dist/images/icons/icon-clock.svg" width="40" height="40" alt="" />
+        </dt>
+        <dd>
+          <h3>Instant Delivery</h3>
+          <p>
+            All your Insta followers and likes will be delivered in a
+            reasonable time. Real followers will follow you in an instant
+            when they see your follower or like request. You’ll see the
+            changes within minutes.
+          </p>
+        </dd>
+      </dl>
+      <dl class="home-advantage-items-item">
+        <dt>
+          <img data-original="/dist/images/icons/icon-support.svg" width="40" height="40" alt="" />
+        </dt>
+        <dd>
+          <h3>24/7 Support</h3>
+          <p>
+            Our specialized support is always available. In case you have
+            any questions about our products or meet any difficulties when
+            working with the system, please do not hesitate to contact us
+            at all times.
+          </p>
+        </dd>
+      </dl>
+      <dl class="home-advantage-items-item">
+        <dt>
+          <img data-original="/dist/images/icons/icon-team.svg" width="40" height="40" alt="" />
+        </dt>
+        <dd>
+          <h3>Experienced Team</h3>
+          <p>
+            Our team is an experienced and professional team in the sector
+            for years. We know the rules of the industry and we act
+            accordingly. We offer instant solutions to help you get
+            followers and likes.
+          </p>
+        </dd>
+      </dl>
+    </div>
+    <div class="home-advantage-btnzone fadeInUp fadeDelay08">
+      <button style="width:278px" class="button rainbow attach-ico ins bubble-float shadow button-btn-windows"
+         onclick="getFree('insdl', 'download', 'hp#dl5')" >
+        <span>Get Free Followers & Likes</span>
+      </button>
+
+      <a href="https://apps.apple.com/app/apple-store/id1588990717?pt=122793395&ct=en-seo-a-hpnew&mt=8" onclick="ga('send', 'event', 'insdl', 'download', 'hppcdl1-ios')"
+        class="button attach-ico apple black-frame-gray shadow showFloat pc">
+        <span>Get Free Followers</span>
+      </a>
+      <a href="https://www.easygetinnta.com/downloadcenter?channel=web"
+        onclick="ga('send', 'event', 'insdl', 'download', 'hppcdl1-app')"
+        class="button attach-ico android black-frame-gray shadow showFloat pc brzailUrl">
+        <span>Get Free Followers</span>
+      </a>
+    </div>
+  </div>
+</section>
+<!-- end Advantages -->
+<!-- reviews -->
+<section class="home-review scroll-animation">
+  <div class="container fadeInUp fadeDelay00">
+    <img src="/dist/images/placeholder.jpg" data-original="/dist/images/logo.svg" width="72"
+      height="72" alt="GetInsta Instagram Followers App" />
+    <h2>Serve the Millions of Customers Across the Global</h2>
+  </div>
+  <div class="home-review-units fadeIn fadeDelay08" style="background-image: url(/dist/images/placeholder.jpg);"
+    data-original="/dist/images/world-map.svg">
+    <div class="container">
+      <div class="home-review-units-marks">
+        <strong>65,203,802</strong>
+        <p>
+          <i class="add" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="/dist/images/icons/icon-add.svg"></i>
+          <span>Followers Provided</span>
+        </p>
+      </div>
+      <div class="home-review-units-marks">
+        <strong>505,602,663</strong>
+        <p>
+          <i class="like" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="/dist/images/icons/icon-likes.svg"></i>
+          <span>Likes Delivered</span>
+        </p>
+      </div>
+      <div class="home-review-units-marks">
+        <strong>25,368,975</strong>
+        <p>
+          <i class="heart" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="/dist/images/icons/icon-grin-hearts.svg"></i>
+          <span>Repeat Customers</span>
+        </p>
+      </div>
+      <div class="home-review-units-marks">
+        <strong>150+</strong>
+        <p>
+          <i class="flag" style="background-image: url(/dist/images/placeholder.jpg);"
+            data-original="/dist/images/icons/icon-flag.svg"></i>
+          <span>Countries</span>
+        </p>
+      </div>
+    </div>
+    <div class="home-review-units-silder fadeInUp fadeDelay08 silderFun">
+      <div class="card">
+        <div class="unit">
+          <img src="/dist/images/placeholder.jpg" data-original="/dist/images/cdn/avatar-3.77c5428f.png" alt="avatar" />
+          <dl>
+            <dt>Happy Yadav</dt>
+            <dd class="ranking">
+              <span style="background-image: url(/dist/images/placeholder.jpg);"
+                data-original="/dist/images/icons/icon-star.svg"></span><span
+                style="background-image: url(/dist/images/placeholder.jpg);"
+                data-original="/dist/images/icons/icon-star.svg"></span><span
+                style="background-image: url(/dist/images/placeholder.jpg);"
+                data-original="/dist/images/icons/icon-star.svg"></span><span
+                style="background-image: url(/dist/images/placeholder.jpg);"
+                data-original="/dist/images/icons/icon-star.svg"></span><span
+                style="background-image: url(/dist/images/placeholder.jpg);"
+                data-original="/dist/images/icons/icon-star.svg"></span>
+            </dd>
+            <dd>
+              <p>
+                Hello, I am Happy Yadav, Blogger and YouTuber. As you know
+                that having BIG numbers on Social Media is a subject of
+                luck sometime and the key to treasure. Thanks with their
+                system that helps in increasing our social presence. Mine
+                most beloved feature is Active &amp; Real Followers with
+                coins system. Hats off to you.
+              </p>
+            </dd>
+          </dl>
+        </div>
+        <div class="unit">
+          <img src="/dist/images/placeholder.jpg" data-original="/dist/images/cdn/avatar-1.8eae93d2.png" alt="avatar" />
+          <dl>
+            <dt>Carrie-Ann Edmonds</dt>
+            <dd class="ranking">
+              <span style="background-image: url(/dist/images/placeholder.jpg);"
+                data-original="/dist/images/icons/icon-star.svg"></span><span
+                style="background-image: url(/dist/images/placeholder.jpg);"
+                data-original="/dist/images/icons/icon-star.svg"></span><span
+                style="background-image: url(/dist/images/placeholder.jpg);"
+                data-original="/dist/images/icons/icon-star.svg"></span><span
+                style="background-image: url(/dist/images/placeholder.jpg);"
+                data-original="/dist/images/icons/icon-star.svg"></span><span
+                style="background-image: url(/dist/images/placeholder.jpg);"
+                data-original="/dist/images/icons/icon-star.svg"></span>
+            </dd>
+            <dd>
+              <p>
+                I’m a college student. Instagram and Twitter are the most
+                often-used apps for me. My story is a bit wired. I was
+                popular on twitter, but not the same as on Ins. Thanks for
+                finding easygetinnta.com while surfing on the internet. I
+                got the
+                <a href="/blog/1000-free-instagram-likes-trial-241" class="link">insta followers
+                  apk</a>
+                on my Samsung and gained lots of followers and likes
+                easily.
+              </p>
+            </dd>
+          </dl>
+        </div>
+        <div class="unit">
+          <img src="/dist/images/placeholder.jpg" data-original="/dist/images/cdn/avatar-2.f7760d80.png" alt="avatar" />
+          <dl>
+            <dt>Melvin Warner</dt>
+            <dd class="ranking">
+              <span style="background-image: url(/dist/images/placeholder.jpg);"
+                data-original="/dist/images/icons/icon-star.svg"></span><span
+                style="background-image: url(/dist/images/placeholder.jpg);"
+                data-original="/dist/images/icons/icon-star.svg"></span><span
+                style="background-image: url(/dist/images/placeholder.jpg);"
+                data-original="/dist/images/icons/icon-star.svg"></span><span
+                style="background-image: url(/dist/images/placeholder.jpg);"
+                data-original="/dist/images/icons/icon-star.svg"></span><span
+                style="background-image: url(/dist/images/placeholder.jpg);"
+                data-original="/dist/images/icons/icon-star.svg"></span>
+            </dd>
+            <dd>
+              <p>
+                It worked. Awesome! I don't need to spend money to get
+                Instagram followers or likes that I want. But, it needs
+                coins. Fortunately, when I first sign up and log in on the
+                app, it gives me hundreds of coins instantly. I have used
+                the coins to get likes successfully.
+              </p>
+            </dd>
+          </dl>
+        </div>
+        <div class="unit">
+          <img src="/dist/images/placeholder.jpg" data-original="/dist/images/cdn/avatar-0.c4b04cec.png" alt="avatar" />
+          <dl>
+            <dt>Emilee Reeves</dt>
+            <dd class="ranking">
+              <span style="background-image: url(/dist/images/placeholder.jpg);"
+                data-original="/dist/images/icons/icon-star.svg"></span><span
+                style="background-image: url(/dist/images/placeholder.jpg);"
+                data-original="/dist/images/icons/icon-star.svg"></span><span
+                style="background-image: url(/dist/images/placeholder.jpg);"
+                data-original="/dist/images/icons/icon-star.svg"></span><span
+                style="background-image: url(/dist/images/placeholder.jpg);"
+                data-original="/dist/images/icons/icon-star.svg"></span><span
+                style="background-image: url(/dist/images/placeholder.jpg);"
+                data-original="/dist/images/icons/icon-star.svg"></span>
+            </dd>
+            <dd>
+              <p>
+                Wonderful and great app. I have received so many free
+                Instagram followers and likes. I’ve also used some other
+                online tools, but I prefer <span class="proname">GetInsta</span> app because it is
+                totally free and easy to use. My followers are growing
+                continually. I’ll use it to get more free Ig followers.
+              </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="arrow">
+        <div class="pagination">
+          <!-- <span class="on"></span><span></span><span></span><span></span> -->
+        </div>
+        <i class="swipNext"></i>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end reviews -->
+<!-- bottom banner -->
+<section class="home-btm-banner scroll-animation" style="background-image: url(/dist/images/placeholder.jpg);"
+  data-original="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzYyLjU3OSIgaGVpZ2h0PSIxOTkuNTAxIiB2aWV3Qm94PSIwIDAgMTM2Mi41NzkgMTk5LjUwMSI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6I2U3ZWJmNTt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik0xMzcwMy45NzksNTUwOC43MjRzNTUuOTg0LTEwLjcyOSwxMDcuODItODUuMzc0LDEzNi44NS05MS4yMzIsMTYxLjczLTc4Ljc5MSw2Ni4zNTIsODIuOTM4LDE3Ni4yNDYsMTguNjYxLDIxMS40OTQtNjguNDI1LDMwMC42NTItMjYuOTU1LDI3MS42MjUsODkuMTU5LDM5My45NTksODcuMDg1LDE1MS4zNjUsODUuNzM0LDIxOS43ODksODUuMzc0UzEzNzAzLjk3OSw1NTA4LjcyNCwxMzcwMy45NzksNTUwOC43MjRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTM3MDMuOTc5IC01MzA5LjIyNCkiLz48L3N2Zz4=">
+  <div class="container">
+    <div class="home-btm-banner-graph fadeInUp" style="background-image: url(/dist/images/placeholder.jpg);"
+      data-original="/dist/images/home/btm-banner-graph.svg"></div>
+    <div class="home-btm-banner-items">
+      <h2 class="fadeInUp fadeDelay00">
+        Download <span class="proname">GetInsita</span> to Get Free Instagram Followers & Likes Instantly!
+      </h2>
+      <p class="fadeInUp fadeDelay06">
+        Download <span class="proname">GetInsta</span> and earn more coins to get free Instagram followers and likes now.
+      </p>
+      <dl class="home-btm-banner-items-btnzone">
+        <dt class="fadeInUp fadeDelay06">
+          <button  onclick="getFree('insdl', 'download', 'hp#dl6')"             class="button rainbow attach-ico ins shadow button-btn-windows">
+            <span>Get Free Followers & Likes</span>
+          </button>
+        </dt>
+        <dd class="item-text fadeInUp fadeDelay10">
+          <span>Real Followers</span><span>No Bots</span><span>100% Safe & Clean</span>
+        </dd>
+        <dd class="item-apps fadeInUp fadeDelay14">
+          <span>Available on:</span>
+          <a href="https://apps.apple.com/app/apple-store/id1588990717?pt=122793395&ct=en-seo-a-hpnew&mt=8" class="apple showFloat"
+            onclick="ga('send', 'event', 'insdl', 'download', 'hppcdl2-ios')"><i class="ios-gray"
+              style="background-image: url(/dist/images/placeholder.jpg);"
+              data-original="/dist/images/icons/awesome-apple-gray.svg"></i></a>
+          <a href="https://www.easygetinnta.com/downloadcenter?channel=web" class="android brzailUrl showFloat"
+            onclick="ga('send', 'event', 'insdl', 'download', 'hppcdl2-app')"><i class="android-gray"
+              style="background-image: url(/dist/images/placeholder.jpg);"
+              data-original="/dist/images/icons/awesome-android-gray.svg"></i></a>
+        </dd>
+      </dl>
+    </div>
+  </div>
+</section>
+<!-- end bottom banner -->
+<!-- post -->
+<section class="home-post-list overwhelming scroll-animation">
+  <div class="container">
+    <div class="home-post-list-title">
+      <h2 class="fadeInUp">
+        <span>10 Overwhelming Reasons</span> You Should Get Instagram Free Followers
+      </h2>
+      <p class="fadeInUp fadeDelay04">
+        ‘Free Instagram followers’ is not a plain phrase on this page but means millions of real Instagram users on this planet. Making money, gaining fame, brand promotion, etc. on Instagram all require you to have a basic followers community. Getting Instagram free followers seems to be a good idea if you need to create a community like that. <span class="proname">GetInsta</span> is ready and prepared to provide
+        you free Instagram followers at any time you want. 10 recognized
+        reasons that you cannot turn down about getting free followers are
+        also listed below. You will understand why free Instagram
+        followers are important by checking all the reasons below:
+      </p>
+    </div>
+    <div class="home-post-list-content">
+      <div class="home-post-list-content-stand standSize">
+        <div class="home-post-list-content-item fadeInUp fadeDelay06">
+          <h3>1. Earn Money but Costing You Nothing</h3>
+          <p>
+            Instagram followers could help you make money if you are running a shop, promoting a brand, etc. on Instagram. More people you can reach means more customers you can get. And Instagram free followers could help you make money without costing any money. 
+          </p>
+        </div>
+        <div class="home-post-list-content-item fadeInUp fadeDelay08">
+          <h3>2. Promote Brand Awareness</h3>
+          <p>
+            Getting Instagram followers is one of the best ways to promote
+            your brand because people would repost or share your great
+            content automatically and reach a large number of people that
+            you cannot imagine. This is the way of the internet and social
+            media. You should make use of them and benefit from them. And
+            Instagram free followers here are real and active users. Your
+            brand, channel, or content could be shared, commented and
+            recognized to a large extent.
+          </p>
+        </div>
+        <div class="placeholder displayOversize fadeInUp fadeDelay08"></div>
+      </div>
+      <div class="home-post-list-content-oversize">
+        <div class="home-post-list-content-item">
+          <h3>3. Become Famous and Win Popularity</h3>
+          <p>
+            Dreaming about getting famous and becoming an online
+            celebrity? Free Instagram followers on this page could do you
+            a favor. Of course, you will not gain popularity at the moment
+            you receive these high-quality followers. What you need to do
+            is to make them become your loyal followers and let them
+            repost or spread your content automatically. Once you stick to
+            generate outstanding posts or products and with the help of
+            Instagram free followers, success would be within your reach.
+          </p>
+        </div>
+        <div class="home-post-list-content-item">
+          <h3>4. Reach Global Audiences</h3>
+          <p>
+          <span class="proname">GetInsta</span> is a global platform that gathers Instagram users all over the world. You are no longer limited to getting followers around your town or city by using it. Instagram followers of the whole planet are your potential followers and waiting for you to hack. Moreover, <span class="proname">GetInsta</span> released local Instagram followers services for you to choose followers from specific regions or countries soon. Check it in the app!
+          </p>
+        </div>
+        <div class="home-post-list-content-item">
+          <h3>5. Increase Engagement with Multiple Followers</h3>
+          <p>
+            Increase engagement with your followers helps you build bonds
+            with them and also increase the chance of they sharing your
+            content or account with friends. This is an excellent way of
+            spreading your account and reaching people in a large amount.
+            Free Instagram followers of <span class="proname">GetInsta</span> would give you the chance
+            to interact with them. They are active and would like to
+            comment on your content. You can just simply show your
+            appreciation and let them know you care about their comments.
+            So, these followers would keep following you and check your
+            content more frequently.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end post -->
+<!-- through-banner -->
+<section class="home-download-banner typeA scroll-animation"
+  style="background-image: url(/dist/images/placeholder.jpg);"
+  data-original="/dist/images/home/through-banner-0.jpg">
+  <div class="container">
+    <h2 class="fadeInUp">
+        Download Get Instagram Followers App for Free IG Followers
+    </h2>
+    <p class="fadeInUp fadeDelay04">
+      Download <span class="proname" style="color:#fff">GetInsta</span> now and you can get more
+      <span> free Instagram followers instantly</span> that are real and
+      will engage with you!
+    </p>
+    <div class="home-download-banner-btnzone fadeInUp fadeDelay06">
+      <button  onclick='getFree("insdl", "download", "hp#dl-reason")'         class="button cyan attach-ico ins shadow button-btn-windows">
+        <span>Get Free Followers & Likes</span>
+      </button>
+      <a href="/buy-instagram-followers"
+        onclick='ga("send", "event", "insbuy", "buy", "hppcbuy-reason")'
+        class="button white-frame">
+        <span>Buy Followers Now</span>
+      </a>
+    </div>
+  </div>
+</section>
+<!-- end throuth-banner -->
+
+<!-- post -->
+<section class="home-post-list scroll-animation">
+  <div class="container">
+    <div class="home-post-list-title">
+      <h2 class="fadeInUp">Free Instagram Likes Matter </h2>
+      <p class="fadeInUp fadeDelay04">
+        Instagram likes directly determines the popularity of your posts and promotes your content. The more Instagram likes you have, the more chances you take to be popular with the group. Considering they are also free, are there any safer bets in the world?
+      </p>
+    </div>
+    <div class="home-post-list-content">
+      <div class="home-post-list-content-inner">
+        <div class="home-post-list-content-item fadeInUp fadeDelay06">
+          <h3>Is It Necessary to Get Free Instagram Likes?</h3>
+          <p>
+            Of course! The most vital factor for the Instagram algorithm is how many likes your post has.  
+              <a href="/blog/best-app-to-get-instagram-likes-18" class="link">Free Instagram likes</a>
+             help you boost the chance of having more viewers without paying money. There is no better solution to attract organic audiences than that.
+          </p>
+        </div>
+        <div class="home-post-list-content-item fadeInUp fadeDelay08">
+          <h3>How to Get More Free Instagram Likes?</h3>
+          <p>
+            To get more free likes on Instagram, you need to make sure that your photos are attractive enough. Photos are always more powerful and interesting than texts. So post photos and make them look interesting or attractive to catch people’s eyes. What’s more, you can try to follow more Instagram celebrities to increase reaches, post more Instagram videos, etc.  These methods can help you achieve your Instagram likes' organic growth without paying money.
+          </p>
+        </div>
+        <div class="home-post-list-content-item fadeInUp fadeDelay10">
+          <h3>Most Efficient Way to Get Free Instagram Likes</h3>
+          <p>
+            <span class="proname">GetInsta</span> is a 100% free Instagram likes increaser, will help you get 1000+ likes and followers within 5 minutes without one penny. Use <span class="proname">GetInsta</span> now to get Instagram likes free effortlessly.
+          </p>
+        </div>
+        <div class="home-post-list-content-btnzone fadeInUp fadeDelay12">
+          <button  onclick='getFree("insdl", "download", "hp#dl-like")'             class="button rainbow attach-ico ins shadow button-btn-windows">
+            <span>Get Free Followers & Likes</span>
+          </button>
+          <a href="/buy-instagram-followers"
+            onclick='ga("send", "event", "insbuy", "buy", "hppcbuy-like")'
+            class="button black-frame">
+            <span>Buy Followers Now</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end post -->
+
+<!-- through-banner -->
+<section class="home-download-banner typeB scroll-animation"
+  style="background-image: url(/dist/images/placeholder.jpg);"
+  data-original="/dist/images/home/through-banner-2.svg">
+  <div class="home-download-banner-graph">
+    <span style="background-image: url(/dist/images/placeholder.jpg);"
+      data-original="/dist/images/home/through-banner-2-ico01.svg"></span>
+    <span style="background-image: url(/dist/images/placeholder.jpg);"
+      data-original="/dist/images/home/through-banner-2-ico02.svg"></span>
+    <span style="background-image: url(/dist/images/placeholder.jpg);"
+      data-original="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNjMuMjg4IiBoZWlnaHQ9IjYzLjI4OCIgdmlld0JveD0iMCAwIDYzLjI4OCA2My4yODgiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOiNmY2Y4ZmY7fS5ie2ZpbGw6I2NkNTBlNDt9LmN7ZmlsdGVyOnVybCgjYSk7fTwvc3R5bGU+PGZpbHRlciBpZD0iYSIgeD0iMCIgeT0iMCIgd2lkdGg9IjYzLjI4OCIgaGVpZ2h0PSI2My4yODgiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PGZlT2Zmc2V0IGR5PSIzIiBpbnB1dD0iU291cmNlQWxwaGEiLz48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIzIiByZXN1bHQ9ImIiLz48ZmVGbG9vZCBmbG9vZC1jb2xvcj0iI2NlNTFlNCIgZmxvb2Qtb3BhY2l0eT0iMC4yIi8+PGZlQ29tcG9zaXRlIG9wZXJhdG9yPSJpbiIgaW4yPSJiIi8+PGZlQ29tcG9zaXRlIGluPSJTb3VyY2VHcmFwaGljIi8+PC9maWx0ZXI+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNTYuNDIgLTcxMjcuMzU1KSI+PGcgY2xhc3M9ImMiIHRyYW5zZm9ybT0ibWF0cml4KDEsIDAsIDAsIDEsIDE1Ni40MiwgNzEyNy4zNikiPjxjaXJjbGUgY2xhc3M9ImEiIGN4PSIyMi42NDQiIGN5PSIyMi42NDQiIHI9IjIyLjY0NCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoOSA2KSIvPjwvZz48cGF0aCBjbGFzcz0iYiIgZD0iTTE3Ny4yNDgsMjA3Ljk2MWE2Ljc0OSw2Ljc0OSwwLDAsMC0xMi43NjQtMS44LDYuNzUzLDYuNzUzLDAsMSwwLTEwLjg2OSw3LjY4bDkuNjMxLDkuNjMxYTEuNzUsMS43NSwwLDAsMCwyLjQ3NiwwbDkuNjMxLTkuNjMxQTYuNzYxLDYuNzYxLDAsMCwwLDE3Ny4yNDgsMjA3Ljk2MVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDgwLjAyOCA2OTEyLjY3KSByb3RhdGUoMTQpIi8+PC9nPjwvc3ZnPg=="></span>
+    <span style="background-image: url(/dist/images/placeholder.jpg);"
+      data-original="/dist/images/home/through-banner-2-ico04.svg"></span>
+    <span style="background-image: url(/dist/images/placeholder.jpg);"
+      data-original="/dist/images/home/through-banner-2-ico05.svg"></span>
+    <span style="background-image: url(/dist/images/placeholder.jpg);"
+      data-original="/dist/images/home/through-banner-2-ico06.svg"></span>
+  </div>
+  <div class="container">
+    <h2 class="fadeInUp">
+      Download Get Instagram Followers App for Free IG Followers
+    </h2>
+    <p class="fadeInUp fadeDelay04">
+      Download <span class="proname">GetInsta</span> now to get unlimited real free Instagram followers
+      without paying. No survey, no password.
+    </p>
+    <div class="home-download-banner-btnzone fadeInUp fadeDelay06">
+      <button  onclick='getFree("insdl", "download", "hp#dl-trap")'         class="button rainbow attach-ico ins shadow button-btn-windows">
+        <span>Get Free Followers & Likes</span>
+      </button>
+      <a href="/buy-instagram-followers"
+        onclick='ga("send", "event", "insbuy", "buy", "hppcbuy-trap")' class="button black-frame">
+        <span>Buy Followers Now</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="global-modal modalDialog buyAlert notRemove">
+  <div class="global-modal-mask"></div>
+  <div class="global-modal-content">
+    <i class="modal-close modalClose"></i>
+    <div class="content-title">
+      <h2><span class="boxFollow">50 </span> Daily Followers <span class="boxPrice">0.99</span></h2>
+      <p><span class="boxDay">30</span>-Day</p>
+    </div>
+    <div class="modal-box-input">
+      <div class="custom-form">
+        <div class="custom-form-row">
+          <div class="custom-form-item">
+            <h3>Enter Instagram Account</h3>
+            <label for="">
+              <input class="enterName" type="text" name="" id="" placeholder="Your Instagram ID" />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ins-name">
+      <img class="msghead" src="/dist/images/tools/video-downloader/module-list06.svg"
+        alt="Icon Avatar - Buy Instagram Followers">
+      <h3 class="msgname">INS</h3>
+      <div class="message">
+        <span>
+          <b class="msgpost">0</b> POSTS
+        </span>
+        <span>
+          <b class="msgfollowers">0</b> Followers
+        </span>
+        <span>
+          <b class="msgfollowing">0</b> Following
+        </span>
+        <input type="hidden" class="insId" value="123">
+        <input type="hidden" class="insUsername" value="hah">
+      </div>
+    </div>
+    <div class="btnzone getInsAccount">
+      <a class="button shadow btn-orange-purple"
+        onclick='getInsAccount("buttonclick", "click", "continue-hp#buycontinue")'><span>Continue</span></a>
+    </div>
+    <div class="btnzone by goChart" style="display:none">
+      <a class="button shadow btn-orange-purple" onclick="getBuyNow();ga('send', 'event', 'insbuy', 'buy', 'hppcdailyfollowerbuynew')"><span>Buy
+          Followers Now</span></a>
+    </div>
+  </div>
+</div>
+
+<!-- alert -->
+<!-- <div class="mobile-alert hide">
+    <div class="mobile-alert_content">
+        <h2>Get Free Instagram Followers with <span class="proname">GetInsta</span> App</h2>
+        <div class="mobile-alert_content-info">
+            <img src="/dist/images/home/download-logo@2x.png" alt="" width="53" height="53">
+            <div>
+                <p><span class="proname">GetInsta</span> - Instagram Followers App</p>
+                <div>
+                    <img src="/dist/images/home/star.svg" alt="" width="92" height="12">
+                    <span>2.7M</span>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-alert_content-btn">
+            <button>Get Free Followers <span>(<span>15</span>s)</span></button>
+        </div>
+        <span></span>
+    </div>
+</div> -->
+
+
+<!-- <script>
+$(function() {
+  // if ($(".home-plane-showcase-item-inner-summary .shadow").hasClass("button-btn-windows")) {
+  //   $(".home-plane-showcase-item-inner-summary .shadow.button-btn-windows").attr("onclick",
+  //     'getFree("inslogin", "login", "hploginnew3")');
+  // }
+  // if ($(".home-banner-intro-btnzone .cyan").hasClass("button-btn-windows")) {
+  //   $(".home-banner-intro-btnzone .cyan.button-btn-windows").attr("onclick",
+  //     'getFree("inslogin", "login", "hploginnew1")');
+  // }
+  // if ($(".home-intro .rainbow").hasClass("button-btn-windows")) {
+  //   $(".home-intro .rainbow.button-btn-windows").attr("onclick",
+  //     'getFree("inslogin", "login", "hploginnew2")');
+  // }
+  // if ($(".home-advantage .rainbow").hasClass("button-btn-windows")) {
+  //   $(".home-advantage .rainbow.button-btn-windows").attr("onclick",
+  //     'getFree("inslogin", "login", "hploginnew5")');
+  // }
+  // if ($(".home-btm-banner:eq(0) .rainbow").hasClass("button-btn-windows")) {
+  //   $(".home-btm-banner:eq(0) .rainbow.button-btn-windows").attr("onclick",
+  //     'getFree("inslogin", "login", "hploginnew6")');
+  // }
+  // if ($(".home-download-banner.typeA .shadow").hasClass("button-btn-windows")) {
+  //   $(".home-download-banner.typeA .shadow.button-btn-windows").attr("onclick",
+  //     'getFree("inslogin", "login", "hplogin-reason")');
+  // }
+  // if ($(".home-download-banner.typeC .rainbow").hasClass("button-btn-windows")) {
+  //   $(".home-download-banner.typeC .rainbow.button-btn-windows").attr("onclick",
+  //     'getFree("inslogin", "login", "hplogin-quality")');
+  // }
+  // if ($(".home-download-banner.typeB .rainbow").hasClass("button-btn-windows")) {
+  //   $(".home-download-banner.typeB .rainbow.button-btn-windows").attr("onclick",
+  //     'getFree("inslogin", "login", "hplogin-trap")');
+  // }
+  // if ($(".home-post-list-content .rainbow").hasClass("button-btn-windows")) {
+  //   $(".home-post-list-content .rainbow.button-btn-windows").attr("onclick",
+  //     'getFree("inslogin", "login", "hplogin-like")');
+  // }
+
+
+  // setTimeout(function() {
+  //   $(".mob-btm-nav-button .pinkyellow").attr({
+  //     "onclick": "ga('send', 'event', 'insdl', 'download', 'hppcdlnew-fc')"
+  //   });
+  // }, 1500);
+
+
+  // var devicepro = 'pc';
+  // if( devicepro == 'ios') {
+  //     $(".proname").html("Getinsup");
+  // }
+
+
+  // $(".home-banner").addClass("on")
+
+  // var imgs = document.querySelectorAll('img');
+  // function isIn(el) {
+  //     var bound = el.getBoundingClientRect();
+  //     var clientHeight = window.innerHeight;
+  //     return bound.top <= clientHeight;
+  // }
+
+  // function check() {
+  //     Array.from(imgs).forEach(function(el){
+  //         if(isIn(el)){
+  //             loadImg(el);
+  //         }
+  //     })
+  // }
+
+  // function loadImg(el) {
+  //     if(!el.src){
+  //         var source = el.dataset.src;
+  //         el.src = source;
+  //     }
+  // }
+  // window.onload = window.onscroll = function () {
+  //     check();
+  // }
+
+
+});
+</script> -->
+
+<script>
+var GIndex = 0,
+  screenW = 0,
+  productData = {},
+  accountData = {};
+
+window.onpageshow = function(event) {
+  $(".switchData").change()
+  $('.buyAlert').removeClass('active activemask');
+  $(".buyAlert .global-modal-content").removeClass("nextbuy");
+  $(".buyAlert .by").hide();
+  $(".buyAlert .getInsAccount").show();
+  $('.enterName').val('')
+  accountData = {};
+}
+
+setTimeout(function() {
+  $(".mob-btm-nav-button .pinkyellow").attr({
+    "onclick": "ga('send', 'event', 'insdl', 'download', 'hppcdlnew-fc')"
+  });
+}, 1500);
+
+$(".home-banner").addClass("on")
+
+// document.getElementById("instant-followers-home").onchange = function() {
+//   var proList = [{"product_id":4169,"product_type":2,"cycle_type":1,"payment_type":2,"purchase_quantity":100,"channel":"","region_id":0,"original_price_decimal":0,"price_decimal":3.59,"symbo":"$","promote_sale_type":0,"discount":0,"gives":[{"type":0,"quantity":0}]},{"product_id":4160,"product_type":2,"cycle_type":1,"payment_type":2,"purchase_quantity":500,"channel":"","region_id":0,"original_price_decimal":20.99,"price_decimal":15.99,"symbo":"$","promote_sale_type":0,"discount":0,"gives":[{"type":2,"quantity":250}]},{"product_id":4161,"product_type":2,"cycle_type":1,"payment_type":2,"purchase_quantity":1000,"channel":"","region_id":0,"original_price_decimal":37.99,"price_decimal":25.99,"symbo":"$","promote_sale_type":0,"discount":0,"gives":[{"type":2,"quantity":500}]},{"product_id":4162,"product_type":2,"cycle_type":1,"payment_type":2,"purchase_quantity":2000,"channel":"","region_id":0,"original_price_decimal":65.99,"price_decimal":35.99,"symbo":"$","promote_sale_type":3,"discount":0,"gives":[{"type":2,"quantity":1000}]},{"product_id":4163,"product_type":2,"cycle_type":1,"payment_type":2,"purchase_quantity":3000,"channel":"","region_id":0,"original_price_decimal":99.99,"price_decimal":59.99,"symbo":"$","promote_sale_type":0,"discount":0,"gives":[{"type":2,"quantity":2000}]}];
+//   productData = proList.filter(function(item) {
+//     return item.product_id == this.value;
+//   }.bind(this))[0];
+// }
+
+$(function() {
+  screenW = screen.width;
+  if (judgeClient() !== 'pc') {
+    initData();
+  }
+
+  $('body').on('input', '.nextbuy .enterName', function() {
+    $(".buyAlert .by").hide();
+    $(".buyAlert .global-modal-content").removeClass("nextbuy");
+    $(".buyAlert .getInsAccount").show();
+    accountData = {};
+  })
+
+  $('#allPage').text($('.services-content_item.active>ul>li').length);
+
+  $('.services-tabs_item').click(function() {
+    var classes = $(this).hasClass('on');
+    if (!classes) {
+
+      $(".services-content_item.active")
+      document.querySelector('.services-content_item.active').scrollLeft = 0;
+
+
+      $('.services-tabs_item').removeClass('on');
+      $('.services-content>div').removeClass('active');
+      $(this).addClass('on');
+      $('.services-content>div').eq($(this).index()).addClass('active');
+
+      if (judgeClient() === 'pc') return;
+
+      GIndex = 0;
+      $('.pagenation>span').removeClass('on')
+      $('.pagenation>span').eq(0).addClass('on')
+      $('.services-content_item>ul').css('left', 0);
+      $('#currentPage').text('1');
+      $('#allPage').text($('.services-content_item.active>ul>li').length);
+      $('.switch-button>div>span.toLeft').addClass('notClick');
+      $('.switch-button>div>span.toRight').removeClass('notClick');
+    }
+  })
+
+  $('.switch-button>div>span').click(function() {
+    var classes = $(this).hasClass('notClick');
+    var classList = $(this).attr('class');
+
+    if (!classes) {
+      if (classList.indexOf('toLeft') != -1) {
+        toLeft();
+      } else if (classList.indexOf('toRight') != -1) {
+        toRight();
+      }
+    }
+  })
+
+  $('body').on('click', '.modalClose', function() {
+    $(".buyAlert .global-modal-content").removeClass("nextbuy");
+    $(".buyAlert .by").hide();
+    $(".buyAlert .getInsAccount").show();
+    $('.enterName').val('')
+    accountData = {};
+  })
+
+  //product,ins
+  buyNow = function() {
+    var product_id = $('.purchase_quantity').val();
+    var pro_list = [{"product_id":2259,"product_type":2,"cycle_type":30,"payment_type":2,"purchase_quantity":50,"channel":"","region_id":0,"original_price_decimal":59.4,"price_decimal":29.7,"symbo":"$","promote_sale_type":0,"discount":50,"gives":[{"type":0,"quantity":0}]},{"product_id":2260,"product_type":2,"cycle_type":30,"payment_type":2,"purchase_quantity":150,"channel":"","region_id":0,"original_price_decimal":149.25,"price_decimal":59.7,"symbo":"$","promote_sale_type":0,"discount":60,"gives":[{"type":0,"quantity":0}]},{"product_id":2261,"product_type":2,"cycle_type":30,"payment_type":2,"purchase_quantity":200,"channel":"","region_id":0,"original_price_decimal":229,"price_decimal":68.7,"symbo":"$","promote_sale_type":0,"discount":70,"gives":[{"type":0,"quantity":0}]},{"product_id":2265,"product_type":2,"cycle_type":60,"payment_type":2,"purchase_quantity":50,"channel":"","region_id":0,"original_price_decimal":91.2,"price_decimal":45.6,"symbo":"$","promote_sale_type":0,"discount":50,"gives":[{"type":0,"quantity":0}]},{"product_id":2263,"product_type":2,"cycle_type":60,"payment_type":2,"purchase_quantity":150,"channel":"","region_id":0,"original_price_decimal":204,"price_decimal":81.6,"symbo":"$","promote_sale_type":0,"discount":60,"gives":[{"type":0,"quantity":0}]},{"product_id":2264,"product_type":2,"cycle_type":60,"payment_type":2,"purchase_quantity":200,"channel":"","region_id":0,"original_price_decimal":332,"price_decimal":99.6,"symbo":"$","promote_sale_type":0,"discount":70,"gives":[{"type":0,"quantity":0}]},{"product_id":2266,"product_type":2,"cycle_type":90,"payment_type":2,"purchase_quantity":50,"channel":"","region_id":0,"original_price_decimal":124.2,"price_decimal":62.1,"symbo":"$","promote_sale_type":0,"discount":50,"gives":[{"type":0,"quantity":0}]},{"product_id":2267,"product_type":2,"cycle_type":90,"payment_type":2,"purchase_quantity":150,"channel":"","region_id":0,"original_price_decimal":272.25,"price_decimal":108.9,"symbo":"$","promote_sale_type":0,"discount":60,"gives":[{"type":0,"quantity":0}]},{"product_id":2268,"product_type":2,"cycle_type":90,"payment_type":2,"purchase_quantity":200,"channel":"","region_id":0,"original_price_decimal":447,"price_decimal":134.1,"symbo":"$","promote_sale_type":0,"discount":70,"gives":[{"type":0,"quantity":0}]}];
+
+    var results = $.map(pro_list, function(value, index) {
+      if (value.product_id == product_id) {
+        return value;
+      }
+    });
+
+    var product = results[0];
+    productData = product;
+
+    var price = $('.priceData').text();
+    var day = $('.switchData').val();
+    var follower = $(".purchase_quantity option:selected").text();
+    follower = follower.replace(/[^0-9]/ig, "");
+    $('.boxFollow').text(follower);
+    $('.boxPrice').text(price);
+    $('.boxDay').text(day);
+    ga('send', 'event', 'insbuy', 'buy', 'hppcbuynew3-' + day + '' + follower +
+      '');
+    $(".buyAlert").addClass("active");
+    setTimeout($(".buyAlert").addClass("activemask"), 100);
+  }
+
+  function dataPost(param) {
+    var params = JSON.stringify(param);
+    let key = 'd4c66a7888fb21c173407d697bc67d92afac1b15ec02d7aaa3cc6a04c2c7b2cf';
+    var hash = CryptoJS.HmacSHA256(params, key);
+    return {
+      signed_body: hash + '.' + params,
+      sign_version: 1,
+    }
+  }
+
+  //get-input-ins-info
+  getInsAccount = function(str1, str2, str3) {
+    var str1 = str1 || '';
+    var str2 = str2 || '';
+    var str3 = str3 || '';
+    var device = "pc";
+    var account = [];
+    var remoteAddr = getApiUrl();
+    var inputVal = $.trim($('.enterName').val());
+
+    if(!inputVal.trim()) {
+      displayAlert('danger', 'Oops', 'Enter Instagram Account');
+        return;
+    }
+
+    if (inputVal && str1 && str2 && str3) {
+      if (str3.indexOf('#') !== -1) {
+        str3 = str3.replace('#', device);
+      }
+      ga("send", "event", str1, str2, str3)
+    }
+
+    getForInsName({
+      'ins_account': inputVal
+    }).then(res => {
+      if (res.status !== 'ok') {
+        displayAlert('danger', 'Oops', '<b>Error Type</b>: ' + res.error.type +
+          ' <br> <b>error Message</b>: ' + res.error.message + '');
+        return;
+      }
+      var postClass = res.post_count;
+      $('.msgpost').text(postClass);
+      var followersClass = res.follower_count;
+      $('.msgfollowers').text(followersClass);
+      var followingClass = res.following_count;
+      $('.msgfollowing').text(followingClass);
+      var insHeadPic = res.follow_pic_url;
+      insHeadPic = Base64.encode(insHeadPic);
+      insHeadPic = remoteAddr + "/api/v1/webuser/loadimg?img_url=" + insHeadPic;
+      $('.msghead').attr('src', insHeadPic);
+      var insName = res.ins_account;
+      $('.msgname').text(insName);
+      var insId = res.ins_id;
+      var insUsername = res.ins_account;
+      account = {
+        'insId': insId,
+        'insUsername': insUsername,
+        'post': postClass,
+        'following': followingClass,
+        'followers': followersClass,
+        'insHeadPic': insHeadPic
+      };
+      accountData = account;
+      $(".buyAlert .global-modal-content").addClass("nextbuy");
+      $(".buyAlert .by").show();
+      $(".buyAlert .getInsAccount").hide();
+    })
+
+  }
+
+  //buy
+  getBuyNow = function() {
+    // var s = getUrlParam('source') || '';
+    // var c = getUrlParam('camp') || '';
+    // var k = getUrlParam('k') || '';
+    // var ads = {
+    //     s: s,
+    //     c: c,
+    //     k: k
+    // }
+
+    // if (s || c || k) {
+    //     setStorage('ads', ads);
+    // }
+
+    let storage_ads = localStorage.getItem('ads');
+    if (storage_ads === null) {
+      var s = 'homepage';
+      var c = getUrlParam('source') || '';
+      var ads = {
+        s: s,
+        c: c
+      }
+
+      if (s || c) {
+        setStorage('ads', ads);
+      }
+    }
+
+    let GetInsta_cartList = localStorage.getItem('GetInsta_cartList');
+    let olist = [];
+    if (GetInsta_cartList) {
+      olist = JSON.parse(GetInsta_cartList).value;
+    }
+    if (olist.length == 0) {
+      curr_product = productData;
+      var ins_id = accountData.insId;
+      var ins_account = accountData.insUsername;
+      var post_count = accountData.post;
+      var follower_count = accountData.followers;
+      var following_count = accountData.following;
+      var insHeadPic = accountData.insHeadPic;
+      var num = 1;
+    } else {
+      for (var i = 0; i < olist.length; i++) {
+        curr_product = productData;
+        var ins_id = accountData.insId;
+        var ins_account = accountData.insUsername;
+        var post_count = accountData.post;
+        var follower_count = accountData.followers;
+        var following_count = accountData.following;
+        var insHeadPic = accountData.insHeadPic;
+        var num = 1;
+        break;
+      }
+    }
+
+    let new_list = {
+      "ins_id": ins_id,
+      "ins_account": ins_account,
+      "task_type": 2,
+      "product_id": curr_product.product_id,
+      "purchase_quantity": curr_product.purchase_quantity,
+      "price_decimal": curr_product.price_decimal,
+      "cycle_type": curr_product.cycle_type,
+      "product_type": curr_product.product_type,
+      "gives": curr_product.gives,
+      "follow_pic_url": insHeadPic,
+      "post_count": post_count,
+      "follower_count": follower_count,
+      "following_count": following_count,
+      "product_num": num
+    }
+    olist.push(new_list)
+
+    var arr = {
+      "value": olist,
+      "ttl": 0
+    }
+    localStorage.setItem('GetInsta_cartList', JSON.stringify(arr))
+
+    // window.location.href = '/checkout';
+    submit_order();
+  }
+
+  $('body').on('change', 'select.switchData', function() {
+    var data = $('.switchData').val();
+    var product_id = $('.purchase_quantity').val(); //product_id
+    var url = '/get-buy-day-price';
+    var new_product_id = '';
+
+    $.ajax({
+      url: url,
+      dataType: 'json',
+      data: {
+        "data": data
+      },
+      type: "post",
+      async: false,
+      success: function(result) {
+
+        result = result.filter(item => {
+          return item.promote_sale_type == 0;
+        })
+
+        new_product_id = result[0]['product_id'];
+        var str = '';
+        str += '<label class="cycle daily">';
+        str +=
+          '<select name="offer-daily" class="package changed purchase_quantity">';
+
+        for (var i = 0; i < result.length; i++) {
+          str += '<option data-price="' + result[i]['price_decimal'] + '" value="' + result[i][
+            'product_id'
+          ] + '">' + result[i][
+            'purchase_quantity'
+          ] + ' Followers / Day</option>';
+        }
+        str += '</select>';
+        str += '</label>';
+        $('.getMore').html(str);
+
+        data = $('.switchData').val();
+
+        var price = $('select.purchase_quantity option:selected').data('price');
+        price = (parseFloat(price) / parseFloat(data)).toFixed(2);
+        $('.priceData').text('$' + price);
+      }
+    });
+  })
+
+  $('body').on('change', 'select.purchase_quantity', function() {
+    var data = $('select.switchData').val();
+    var price = $('select.purchase_quantity option:selected').data('price');
+    data = parseInt(data);
+    price = (parseFloat(price) / data).toFixed(2);
+    $('.priceData').text('$' + price);
+  })
+  var country_code = '';
+
+  var remoteUrl = "https://stats.easygetinsta.com/api/main/getcountry";
+  $.ajax({
+    url: remoteUrl,
+    dataType: 'json',
+    data: '',
+    type: "post",
+    success: function(result) {
+      if (result.status == 'ok') {
+        country_code = result.country_code;
+        if (country_code == 'BR') {
+          var device = 'pc';
+          if (device == 'app') { //android
+            var androidUrl = 'https://www.easygetinsta.com/downloadcenter';
+            $('.brzailUrl').attr('href', androidUrl);
+          }
+        }
+      }
+    }
+  });
+
+
+
+  getFree = function(str1, str2, str3) {
+    var str1 = str1 || '';
+    var str2 = str2 || '';
+    var str3 = str3 || '';
+    var device = "pc";
+    if (str1 && str2 && str3) {
+      if (str3.indexOf('#') !== -1) {
+        str3 = str3.replace('#', device);
+      }
+      ga("send", "event", str1, str2, str3)
+    }
+    if (device == 'pc') {
+      let token = localStorage.getItem('token');
+      // if (token == null) {
+      //   window.location.href = '/login';
+      // } else {
+      //   window.location.href = '/user';
+      // }
+      window.location.href = 'https://www.iosimo.com/downloadcenter?product=pc';
+    } else if (device == 'ios') {
+      var iosUrl = 'https://apps.apple.com/app/apple-store/id1588990717?pt=122793395&ct=en-seo-a-hpnew&mt=8';
+      window.location.href = iosUrl;
+    } else if (device == 'app') {
+      if (country_code == 'BR') {
+        var androidUrl = 'https://www.easygetinsta.com/downloadcenter';
+      } else {
+        var androidType = '1';
+        var source = getUrlParam('source');
+        if(androidType == 1 && source != 'tiktok'){
+          var androidUrl = '/thank-you-download';
+        }else{
+          var androidUrl = 'https://www.easygetinnta.com/downloadcenter?channel=web';
+        }
+      }
+      window.location.href = androidUrl;
+    }
+
+  }
+
+  // newyear
+  $('.mob-btm-nav-items').addClass('newyear');
+  // newyear
+})
+
+var doms = document.querySelectorAll('.services-content_item');
+
+doms.forEach(item => {
+  item.onscroll = function() {
+    var SL = item.scrollLeft;
+    var scrollDis = (84 + 5.33) / 100 * screenW;
+    if (SL < 10) {
+      GIndex = 0;
+    } else if (SL >= scrollDis && SL < scrollDis + 20) {
+      GIndex = 1;
+    } else if (SL >= scrollDis * 2 - 20 && SL < scrollDis * 2) {
+      GIndex = 2;
+    }
+
+    if (GIndex == 0) {
+      $('.switch-button>div>span').removeClass('notClick');
+      $('.switch-button>div>span.toLeft').addClass('notClick');
+    } else if (GIndex == 1) {
+      $('.switch-button>div>span').removeClass('notClick');
+    } else if (GIndex == 2) {
+      $('.switch-button>div>span').removeClass('notClick');
+      $('.switch-button>div>span.toRight').addClass('notClick');
+    }
+
+    $('.pagenation>span').removeClass('on')
+    $('.pagenation>span').eq(GIndex).addClass('on')
+
+    $('#currentPage').html(GIndex + 1)
+  }
+
+})
+
+function initData() {
+  var items = document.querySelectorAll('.services-content_item');
+  var screenW = screen.width;
+  for (var i = 0; i < items.length; i++) {
+    var child = items[i].querySelectorAll('ul>li');
+    var liLen = child.length;
+    var ulW = 84 / 100 * screenW * liLen + 5.33 / 100 * screenW * (liLen + 1);
+    items[i].querySelector('ul').style.width = ulW + 'px';
+  }
+}
+
+let toLeft = function() {
+  var liLen = $('.services-content_item.active>ul>li').length;
+  var screenW = screen.width;
+  var ulW = 84 / 100 * screenW + 5.33 / 100 * screenW;
+  if (GIndex > 0) {
+    GIndex--;
+    $(".services-content_item.active").stop().animate({
+      'scrollLeft': ulW * GIndex
+    }, 50);
+
+    $('.pagenation>span').removeClass('on')
+    $('.pagenation>span').eq(GIndex).addClass('on')
+
+    $('#currentPage').text(GIndex + 1);
+    $('.switch-button>div>span').removeClass('notClick');
+    if (GIndex == 0) {
+      $('.switch-button>div>span.toLeft').addClass('notClick');
+      $('.switch-button>div>span.toRight').removeClass('notClick');
+    }
+  }
+}
+
+let toRight = function() {
+  var liLen = $('.services-content_item.active>ul>li').length;
+  var screenW = screen.width;
+  var ulW = 84 / 100 * screenW + 5.33 / 100 * screenW;
+
+  if (GIndex < liLen - 1) {
+    GIndex++;
+    $(".services-content_item.active").stop().animate({
+      'scrollLeft': ulW * GIndex
+    }, 50);
+    $('.pagenation>span').removeClass('on')
+    $('.pagenation>span').eq(GIndex).addClass('on')
+    $('#currentPage').text(GIndex + 1);
+    $('.switch-button>div>span').removeClass('notClick');
+    if (GIndex == liLen - 1) {
+      $('.switch-button>div>span.toLeft').removeClass('notClick');
+      $('.switch-button>div>span.toRight').addClass('notClick');
+    }
+  }
+}
+
+let buttonUrl = function(num) {
+  var type = judgeClient();
+  var pcGa = '',
+    pcUrl = '';
+
+  var iosGa = '';
+
+  var androidGa = '';
+
+  if (type === 'pc') {
+    pcGa = num == 1 ? 'instantfollower-hpservice' : num == 2 ? 'autofollower-hpservice' : num == 4 ?
+      'instantlike-hpservice' : num == 5 ? 'autolike-hpservice' : num == 6 ? 'dailylike-hpservice' : '';
+    pcUrl = num == 1 ? '/buy-instagram-followers' : num == 2 ? '/buy-auto-instagram-followers' : num == 4 ?
+      '/buy-instagram-likes' : num == 5 ? '/buy-instagram-auto-likes' : num == 6 ? '/buy-instagram-daily-likes' : '';
+    getGaUrl('toinsbuy', 'click', pcGa, pcUrl);
+  } else if (type === 'ios') {
+    iosGa = num == 1 ? 'iosdl-instantfollower-hpservice' : num == 2 ? 'iosdl-autofollower-hpservice' : num == 4 ?
+      'iosdl-instantlike-hpservice' : num == 5 ? 'iosdl-autolike-hpservice' : num == 6 ? 'iosdl-dailylike-hpservice' :
+      '';
+    getGaUrl('insdl', 'download', iosGa, 'https://apps.apple.com/app/apple-store/id1588990717?pt=122793395&ct=en-seo-a-hpnew&mt=8');
+
+  } else if (type === 'android') {
+    androidGa = num == 1 ? 'appdl-instantfollower-hpservice' : num == 2 ? 'appdl-autofollower-hpservice' : num == 4 ?
+      'appdl-instantlike-hpservice' : num == 5 ? 'appdl-autolike-hpservice' : num == 6 ? 'appdl-dailylike-hpservice' :
+      '';
+    var androidType = '1';
+    var source = getUrlParam('source');
+    if(androidType == 1 && source != 'tiktok'){
+      var androidUrl = '/thank-you-download';
+    }else{
+      var androidUrl = 'https://www.easygetinnta.com/downloadcenter?channel=web';
+    }
+    getGaUrl('insdl', 'download', androidGa, androidUrl);
+  }
+}
+</script>    
+<footer>
+    <section class="global-footer">
+    <div class="container">
+      <dl class="global-footer-badge">
+        <dt><img data-original="/dist/images/logo.svg" alt="" /></dt>
+        <dd>
+          <h3>
+                        <span class="proname">GetInsta</span>
+                      </h3>
+          <p>&copy; 2022 easygetinnta.com</p>
+        </dd>
+      </dl>
+      <dl class="global-footer-list">
+        <dt>
+          <h3>SERVICES</h3>
+        </dt>
+        <dd class="global-footer-list-container">
+          <a href="/buy-instagram-followers"> Get Instagram Followers </a>
+          <a href="/buy-auto-instagram-followers">
+            Get Auto Instagram Followers
+          </a>
+          <a href="/buy-instagram-likes"> Get Instagram Likes </a>
+          <!-- <a href="/affiliate-solutions"> Affiliate Program </a> -->
+        </dd>
+      </dl>
+      <dl class="global-footer-list">
+        <dt>
+          <h3>RESOURCE</h3>
+        </dt>
+        <dd class="global-footer-list-container">
+          <a href="/login"> Login </a>
+          <a href="/faqs"> FAQs </a>
+          <a href="/blog"> Blog </a>
+        </dd>
+      </dl>
+      <dl class="global-footer-list download-link">
+        <dt>
+          <h3>APP DOWNLOAD</h3>
+        </dt>
+        <dd>
+          <a class="app-link-btn android showFloat brzailUrl" href="/thank-you-download"
+            onclick='ga("send", "event", "insdl", "download", "appdl-footer-all")'>
+            <dl>
+              <dt>
+                <span><img data-original="/dist/images/icons/icon-btn-download-black.svg"
+                    alt="" /></span>
+                <span><img data-original="/dist/images/icons/icon-android-google-play-grey.svg"
+                    alt="" /></span>
+              </dt>
+              <dd><span>GET IT ON</span><strong>Google Play</strong></dd>
+            </dl>
+          </a>
+          <a class="app-link-btn apple showFloat" href="https://apps.apple.com/app/apple-store/id1588990717?pt=122793395&ct=en-seo-a-hpnew&mt=8"
+            onclick='ga("send", "event", "insdl", "download", "iosdl-footer-all")'>
+            <dl>
+              <dt>
+                <span><img data-original="/dist/images/icons/icon-btn-download-black.svg"
+                    alt="" /></span>
+                <span><img data-original="/dist/images/icons/icon-btn-download-apple_black.svg"
+                    alt="" /></span>
+              </dt>
+              <dd><span>Download on the</span><strong>App Store</strong></dd>
+            </dl>
+          </a>
+        </dd>
+      </dl>
+    </div>
+  </section>
+    <section class="global-copyright">
+    <div class="container">
+      <div class="global-copyright-text">
+        <h5>Copyright © 2022 <span class="proname">GetInsta</span></h5>
+        <a href="/privacy"> Privacy Policy </a>
+        <a href="/terms"> Terms of Use </a>
+      </div>
+      <div class="global-copyright-fun">
+        <ul class="global-copyright-fun-payment">
+          <li>
+            <img data-original="/dist/images/payment/paypal.svg" alt="" />
+          </li>
+          <li>
+            <img data-original="/dist/images/payment/master.svg" alt="" />
+          </li>
+          <li>
+            <img data-original="/dist/images/payment/amex.svg" alt="" />
+          </li>
+          <li>
+            <img data-original="/dist/images/payment/GooglePay.svg" alt="" />
+          </li>
+          <li>
+            <img data-original="/dist/images/payment/ApplePay.svg" alt="" />
+          </li>
+          <li>
+            <img data-original="/dist/images/payment/VISA.svg" alt="" />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+    <section class="mob-btm-nav on">
+    <ul class="mob-btm-nav-items">
+
+
+      <!--       <li onclick="firstTimeClick(1, this)" class="saleicon">
+        <span>
+          <embed src="/dist/images/popover/sale.svg" type="image/svg+xml" />
+        </span>
+        <a href="javascript:;" class="current">
+          <i class="home"></i>
+          <span>Home</span>
+        </a>
+      </li>
+       -->
+
+      <li onclick="firstTimeClick(1, this)">
+        <a href="javascript:;" class="current">
+          <i class="home"></i>
+          <span>Home</span>
+        </a>
+      </li>
+      
+      <li onclick="firstTimeClick(2, this)">
+        <a href="javascript:;">
+          <i class="followers"></i>
+          <span>Followers</span>
+        </a>
+        <!-- <span class="firstTimeTag">1</span> -->
+      </li>
+      <li onclick="firstTimeClick(3, this)">
+        <a href="javascript:;">
+          <i class="likes"></i>
+          <span>Likes</span>
+        </a>
+      </li>
+    </ul>
+    <p class="event-dlFive-message" style="display: none;">Download <span class="proname">Getinself</span> Instantly</p>
+    <div class="mob-btm-nav-button">
+          </div>
+  </section>
+  
+
+  <div class="back-to-top backTop">
+    <i class="backtop"></i>
+  </div>
+</footer>            </div>
+    <script src="/dist/js/jquery.touch.min.js"></script>
+<script src="/dist/js/scroll-animation.min.js"></script>
+<script src="/dist/js/swiper.min.js"></script>
+<script src="/dist/js/common.js"></script>
+<script src="/dist/js/base64.min.js"></script>
+<script src="/dist/js/modal.min.js"></script>
+<script src="/dist/js/hmac-sha256.js"></script>
+<script src="/dist/js/modal.js"></script>
+<script src="/dist/js/navigator.min.js"></script></body>
+</html>
+

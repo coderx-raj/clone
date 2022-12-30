@@ -1,0 +1,392 @@
+.main {
+    overflow: hidden;
+  }
+  
+  .home-download-banner {
+    width: 100%;
+    height: 319px;
+    background-size: cover;
+    padding: 44px 0 0;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+  
+    h2 {
+      text-align: center;
+      font-size: 40px;
+      line-height: 60px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+  
+    p {
+      text-align: center;
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 500;
+      color: #fff;
+      margin-bottom: 47px;
+  
+      span {
+        color: #fff78a;
+        &.proname {
+          color: #7f8498;
+        }
+      }
+    }
+  
+    &-btnzone {
+      display: flex;
+      justify-content: center;
+  
+      .button {
+        width: 277px;
+        height: 60px;
+        margin: 0 20px;
+        color: #fff;
+  
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+  
+    &.typeA {
+      position: relative;
+      // background: url("../images/home/through-banner-0.jpg") no-repeat;
+      background-repeat: no-repeat;
+      &:after{
+        content: '';
+        position: absolute;
+        width: 220px;
+        height: 100%;
+        top: 0;
+        right: 8%;
+        margin: 0 auto;
+        background: url('../images/home/through-banner-0-attach.svg') no-repeat center ;
+      }
+    }
+  
+    &.typeB {
+      // background: url("../images/home/through-banner-2.svg") no-repeat;
+      background-repeat: no-repeat;
+      .home-download-banner-graph {
+        span {
+          display: block;
+          position: absolute;
+          transform: scale(0);
+          opacity: 0;
+          transition: all 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  
+          &:first-child {
+            width: 43px;
+            height: 43px;
+            // background: url("../images/home/through-banner-2-ico01.svg") no-repeat;
+            background-repeat: no-repeat;
+            top: 23px;
+            left: 86px;
+          }
+  
+          &:nth-child(2) {
+            width: 48px;
+            height: 48px;
+            // background: url("../images/home/through-banner-2-ico02.svg") no-repeat;
+            background-repeat: no-repeat;
+            top: 20px;
+            left: 192px;
+          }
+  
+          &:nth-child(3) {
+            width: 63px;
+            height: 63px;
+            // background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNjMuMjg4IiBoZWlnaHQ9IjYzLjI4OCIgdmlld0JveD0iMCAwIDYzLjI4OCA2My4yODgiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOiNmY2Y4ZmY7fS5ie2ZpbGw6I2NkNTBlNDt9LmN7ZmlsdGVyOnVybCgjYSk7fTwvc3R5bGU+PGZpbHRlciBpZD0iYSIgeD0iMCIgeT0iMCIgd2lkdGg9IjYzLjI4OCIgaGVpZ2h0PSI2My4yODgiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PGZlT2Zmc2V0IGR5PSIzIiBpbnB1dD0iU291cmNlQWxwaGEiLz48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIzIiByZXN1bHQ9ImIiLz48ZmVGbG9vZCBmbG9vZC1jb2xvcj0iI2NlNTFlNCIgZmxvb2Qtb3BhY2l0eT0iMC4yIi8+PGZlQ29tcG9zaXRlIG9wZXJhdG9yPSJpbiIgaW4yPSJiIi8+PGZlQ29tcG9zaXRlIGluPSJTb3VyY2VHcmFwaGljIi8+PC9maWx0ZXI+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNTYuNDIgLTcxMjcuMzU1KSI+PGcgY2xhc3M9ImMiIHRyYW5zZm9ybT0ibWF0cml4KDEsIDAsIDAsIDEsIDE1Ni40MiwgNzEyNy4zNikiPjxjaXJjbGUgY2xhc3M9ImEiIGN4PSIyMi42NDQiIGN5PSIyMi42NDQiIHI9IjIyLjY0NCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoOSA2KSIvPjwvZz48cGF0aCBjbGFzcz0iYiIgZD0iTTE3Ny4yNDgsMjA3Ljk2MWE2Ljc0OSw2Ljc0OSwwLDAsMC0xMi43NjQtMS44LDYuNzUzLDYuNzUzLDAsMSwwLTEwLjg2OSw3LjY4bDkuNjMxLDkuNjMxYTEuNzUsMS43NSwwLDAsMCwyLjQ3NiwwbDkuNjMxLTkuNjMxQTYuNzYxLDYuNzYxLDAsMCwwLDE3Ny4yNDgsMjA3Ljk2MVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDgwLjAyOCA2OTEyLjY3KSByb3RhdGUoMTQpIi8+PC9nPjwvc3ZnPg==) no-repeat;
+            background-repeat: no-repeat;
+            bottom: 64px;
+            left: 155px;
+          }
+  
+          &:nth-child(4) {
+            width: 121px;
+            height: 109px;
+            // background: url("../images/home/through-banner-2-ico04.svg") no-repeat;
+            background-repeat: no-repeat;
+            bottom: 158px;
+            left: 235px;
+          }
+  
+          &:nth-child(5) {
+            width: 45px;
+            height: 45px;
+            // background: url("../images/home/through-banner-2-ico05.svg") no-repeat;
+            background-repeat: no-repeat;
+            bottom: 38px;
+            left: 321px;
+          }
+  
+          &:nth-child(6) {
+            width: 60px;
+            height: 60px;
+            // background: url("../images/home/through-banner-2-ico06.svg") no-repeat;
+            background-repeat: no-repeat;
+            bottom: 54px;
+            left: 514px;
+          }
+        }
+      }
+  
+      @media screen and(min-width:769px) {
+        width: 1920px;
+      }
+    }
+  
+    &.typeC {
+      background: none;
+      height: auto;
+      padding: 0;
+      margin-top: 50px;
+  
+      .container {
+        height: 363px;
+        padding: 40px 80px;
+        background: linear-gradient(90deg, #fedde7, #dadefe) 0 0 no-repeat;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+      }
+  
+      .home-download-banner-inner {
+        width: 635px;
+  
+        h2,
+        p {
+          text-align: left;
+        }
+  
+        h2 {
+          line-height: 50px;
+        }
+  
+        .home-download-banner-btnzone {
+          justify-content: flex-start;
+        }
+      }
+  
+      .home-download-banner-graph {
+        width: 300px;
+        height: 280px;
+        margin-right: 112px;
+        // background: url("../images/home/through-banner-3-bg.svg") no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        position: relative;
+  
+        &>.bg {
+          opacity: 0;
+          transform: translateY(30px);
+          transition: all 0.6s 1.6s;
+          width: 160px;
+          height: 189px;
+          // background: url("../images/home/through-banner-3-phone.svg") no-repeat;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          left: 45px;
+          top: 23px;
+        }
+  
+        span {
+          position: absolute;
+          display: block;
+          transform: scale(0);
+          opacity: 0;
+          transition: all 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
+  
+          &:first-child {
+            width: 91px;
+            height: 77px;
+            // background: url("../images/home/through-banner-3-ico01.svg") no-repeat;
+            background-repeat: no-repeat;
+            background-size: cover;
+            left: -20px;
+            bottom: 106px;
+          }
+  
+          &:nth-child(2) {
+            width: 44px;
+            height: 45px;
+            // background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDUuMDk5IiBoZWlnaHQ9IjQ0LjEwOSIgdmlld0JveD0iMCAwIDQ1LjA5OSA0NC4xMDkiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOiNmZjY1NjU7fS5ie2ZpbHRlcjp1cmwoI2EpO308L3N0eWxlPjxmaWx0ZXIgaWQ9ImEiIHg9IjAiIHk9IjAiIHdpZHRoPSI0NS4wOTkiIGhlaWdodD0iNDQuMTA5IiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiPjxmZU9mZnNldCBkeT0iMyIgaW5wdXQ9IlNvdXJjZUFscGhhIi8+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMyIgcmVzdWx0PSJiIi8+PGZlRmxvb2QgZmxvb2QtY29sb3I9IiNjYmNiY2IiIGZsb29kLW9wYWNpdHk9IjAuMzgiLz48ZmVDb21wb3NpdGUgb3BlcmF0b3I9ImluIiBpbjI9ImIiLz48ZmVDb21wb3NpdGUgaW49IlNvdXJjZUdyYXBoaWMiLz48L2ZpbHRlcj48L2RlZnM+PGcgY2xhc3M9ImIiIHRyYW5zZm9ybT0ibWF0cml4KDEsIDAsIDAsIDEsIDAsIDApIj48cGF0aCBjbGFzcz0iYSIgZD0iTTEyLjQzNCwyMS40NzVhMi43MiwyLjcyLDAsMCwxLTEuNTEzLS43MDZDNS41NDgsMTUuOSwyLDEyLjY4MywyLDguNzM5QTUuNjgzLDUuNjgzLDAsMCwxLDcuNzM5LDNhNi4yNDgsNi4yNDgsMCwwLDEsNC43LDIuMTgxQTYuMjQ4LDYuMjQ4LDAsMCwxLDE3LjEzLDNhNS42ODMsNS42ODMsMCwwLDEsNS43MzksNS43MzljMCwzLjk0NC0zLjU0OCw3LjE1OC04LjkyMSwxMi4wNDFBMi43LDIuNywwLDAsMSwxMi40MzQsMjEuNDc1WiIgdHJhbnNmb3JtPSJtYXRyaXgoMC44OCwgLTAuNDcsIDAuNDcsIDAuODgsIDUuODMsIDE0LjA5KSIvPjwvZz48L3N2Zz4=) no-repeat;
+            background-repeat: no-repeat;
+            background-size: cover;
+            left: 39;
+            bottom: 214px;
+          }
+  
+          &:nth-child(3) {
+            width: 39px;
+            height: 39px;
+            // background: url("../images/home/through-banner-3-ico03.svg") no-repeat;
+            background-repeat: no-repeat;
+            background-size: cover;
+            right: 74px;
+            top: -25px;
+          }
+  
+          &:nth-child(4) {
+            width: 91px;
+            height: 77px;
+            // background: url("../images/home/through-banner-3-ico04.svg") no-repeat;
+            background-repeat: no-repeat;
+            background-size: cover;
+            right: 25px;
+            top: 9px;
+          }
+  
+          &:nth-child(5) {
+            width: 91px;
+            height: 77px;
+            // background: url("../images/home/through-banner-3-ico05.svg") no-repeat;
+            background-repeat: no-repeat;
+            background-size: cover;
+            right: 12px;
+            bottom: 54px;
+          }
+        }
+      }
+    }
+  
+    &.typeB,
+    &.typeC {
+      h2 {
+        color: #000;
+      }
+  
+      p {
+        color: $text-gray;
+      }
+  
+      .home-download-banner-btnzone {
+        .black-frame {
+          color: #000;
+        }
+      }
+    }
+  
+    &.on {
+      .home-download-banner-graph {
+        .bg {
+          opacity: 1;
+          transform: translateY(0);
+        }
+  
+        span {
+          opacity: 1 !important;
+          transform: scale(1) !important;
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home-download-banner {
+      width: 100%;
+      height: 437px;
+  
+      .container {
+        padding: 0 15px;
+      }
+  
+      h2 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 500;
+        margin-bottom: 25px;
+      }
+  
+      p {
+        span {
+          color: #fff78a;
+        }
+      }
+  
+      &-btnzone {
+        flex-direction: column;
+        align-items: center;
+  
+        .button {
+          margin: 0;
+  
+          &:first-child {
+            margin-bottom: 20px;
+          }
+        }
+      }
+  
+      &.typeA {
+        // background: url("../images/home/through-banner-0-mob.jpg") no-repeat;
+        background-repeat: no-repeat;
+        &:after{
+          display: none;
+        }
+      }
+  
+      &.typeB {
+        // background: url("../images/home/through-banner-2-mob.svg") no-repeat;
+        background-repeat: no-repeat;
+        height: auto;
+        padding-bottom: 50px;
+        background-size: cover;
+  
+        .home-download-banner-graph {
+          display: none;
+        }
+  
+        h2 {
+          font-size: 32px;
+          line-height: 40px;
+        }
+      }
+  
+      &.typeC {
+        .container {
+          padding: 30px 0;
+          height: auto;
+        }
+  
+        .home-download-banner-inner {
+          width: 100%;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          // background-image: url("../images/home/through-banner-3-mob.svg");
+          background-repeat: no-repeat;
+          background-position: 0 0;
+          background-size: 148px 144px;
+  
+          h2 {
+            align-self: flex-end;
+            width: 60vw;
+            font-size: 20px;
+            line-height: 24px;
+            padding-right: 15px;
+            font-weight: 600;
+          }
+  
+          p {
+            align-self: flex-end;
+            width: 60vw;
+            font-size: 14px;
+            line-height: 20px;
+            padding-right: 15px;
+          }
+        }
+  
+        .home-download-banner-graph {
+          display: none !important;
+        }
+      }
+    }
+  }

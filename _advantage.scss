@@ -1,0 +1,115 @@
+.home-advantage {
+    padding: 100px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #E6E6E6;
+    .container {
+        // @include flex-all;
+        // flex-direction: column;
+    }
+    h2 {
+        text-align: center;
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 600;
+    }
+    &-items {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        &-item {
+            width: 260px;
+            text-align: left;
+            transition: all .6s cubic-bezier(.25, 1, .5, 1);
+            dt {
+                img {
+                    max-width: 110px;
+                    width: 40px;
+                    height: 40px;
+                    -o-object-fit: contain;
+                    object-fit: contain;
+                }
+            }
+            dd {
+                h3 {
+                    margin-top: 15px;
+                    font: normal normal 700 20px/30px BalooChettan;
+                    color: #000;
+                }
+                p {
+                    margin-top: 9px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: $text-gray;
+                }
+            }
+        }
+    }
+    &-btnzone {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        .button {
+            flex-shrink: 0;
+            width: 228px;
+            height: 60px;
+            margin-right: 20px;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .home-advantage {
+        padding: 78px 0 72px;
+        h2 {
+            color: #000;
+        }
+        &-items {
+            flex-direction: column;
+            margin-top: 0;
+            &-item {
+                margin-top: 50px;
+                padding: 0 45px 0 30px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                dt {
+                    img {
+                        max-width: 55px;
+                        width: 44px;
+                        height: auto;
+                    }
+                }
+                dd {
+                    margin-left: 44px;
+                    h3 {
+                        margin-top: 0;
+                        font-size: 20px;
+                        line-height: 30px;
+                        font: normal normal 700 20px/30px BalooChettan;
+                        color: #000;
+                    }
+                    p {
+                        margin-top: 8px;
+                        color: $text-gray;
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+        &-btnzone {
+            margin: 66px auto 0;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .button {
+                margin-right: 0;
+                &.apple,
+                &.android {
+                    display: none;
+                }
+            }
+        }
+    }
+}

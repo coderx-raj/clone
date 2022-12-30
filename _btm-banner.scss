@@ -1,0 +1,161 @@
+.home-btm-banner {
+    padding-top: 68px;
+    padding-bottom: 0;
+    text-align: center;
+    // background: #f1f4f6 url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzYyLjU3OSIgaGVpZ2h0PSIxOTkuNTAxIiB2aWV3Qm94PSIwIDAgMTM2Mi41NzkgMTk5LjUwMSI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6I2U3ZWJmNTt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik0xMzcwMy45NzksNTUwOC43MjRzNTUuOTg0LTEwLjcyOSwxMDcuODItODUuMzc0LDEzNi44NS05MS4yMzIsMTYxLjczLTc4Ljc5MSw2Ni4zNTIsODIuOTM4LDE3Ni4yNDYsMTguNjYxLDIxMS40OTQtNjguNDI1LDMwMC42NTItMjYuOTU1LDI3MS42MjUsODkuMTU5LDM5My45NTksODcuMDg1LDE1MS4zNjUsODUuNzM0LDIxOS43ODksODUuMzc0UzEzNzAzLjk3OSw1NTA4LjcyNCwxMzcwMy45NzksNTUwOC43MjRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTM3MDMuOTc5IC01MzA5LjIyNCkiLz48L3N2Zz4=) bottom no-repeat;
+    background-color: #f1f4f6;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    // overflow: hidden;
+  
+    .container {
+      display: flex;
+  
+    }
+  
+    &-graph {
+      display: inline-block;
+      width: 347px;
+      height: 400px;
+      // background: url(../images/home/btm-banner-graph.svg) 50% no-repeat;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      vertical-align: top;
+    }
+  
+    &-items {
+      margin-left: 120px;
+      padding-top: 34px;
+      display: inline-block;
+      width: 690px;
+      vertical-align: top;
+      text-align: left;
+  
+      h2 {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+      }
+  
+      p {
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 23px;
+        color: $text-gray;
+        text-align: left;
+      }
+  
+      &-btnzone {
+        margin-top: 37px;
+        display: inline-block;
+  
+        .button {
+          width: 278px;
+        }
+  
+        .item-text {
+          margin-top: 27px;
+          display: flex;
+          justify-content: center;
+  
+          span {
+            margin-right: 20px;
+            display: flex;
+            align-items: center;
+            font: normal normal 600 14px/20px BalooChettan;
+            color: #000;
+  
+            &:before {
+              content: "";
+              margin-right: 4px;
+              display: inline-block;
+              width: 6px;
+              height: 6px;
+              border-radius: 50%;
+              background-color: #6b50ff;
+            }
+          }
+        }
+  
+        .item-apps {
+          display: flex;
+          align-items: center;
+          margin-top: 25px;
+  
+          span {
+            font: normal normal 600 14px/20px BalooChettan;
+            letter-spacing: 0;
+            color: $text-gray;
+            font-size: 14px;
+            font-weight: 600;
+          }
+  
+          i {
+            display: inline-block;
+            width: 20px;
+            height: 24px;
+            background-position: 50%;
+            background-size: 20px 24px;
+            margin: 0 10px;
+            background-repeat: no-repeat;
+            cursor: pointer;
+  
+          }
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width:768px) {
+    .home-btm-banner {
+      padding-bottom: 70px;
+      background-image: none !important;
+  
+      &-graph {
+        display: none !important;
+      }
+  
+      &-items {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+  
+        h2 {
+          font-size: 26px;
+          line-height: 34px;
+          padding: 0 15px;
+  
+          &+p {
+            margin-top: 10px;
+            padding: 0 15px;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+          }
+        }
+  
+        &-btnzone {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+  
+          dd {
+            &.item-text {
+              width: 100%;
+              padding: 0 10vw;
+              margin-top: 24px;
+              justify-content: space-between;
+              span{
+                margin-right: 0;
+              }
+            }
+            &.item-apps{
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
